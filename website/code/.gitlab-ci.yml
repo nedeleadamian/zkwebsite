@@ -1,0 +1,92 @@
+image: docker:stable
+
+# 引用Rancher部署脚本（所需tag：docker）
+include:
+  - template: Rancher.Nginx.gitlab-ci.yml
+# 将自动部署到Rancher中的特定k8s集群（基于CI Variables中配置的Rancher用户信息）
+# k8s配置位于deployment.yml或者service.yml
+# deployment.yml是容器基础部署配置，可用于本地开发
+# service.yml是服务及LB配置，将更优先匹配，并拼接deployment.yml的内容作为最终配置项
+# 在Rancher中最终表现形式如下：
+# 项目名称为：gitlab仓库所在组，子组用'/'连接，如it/integration
+# 命名空间为：gitlab项目名称
+
+# 定义所需变量
+variables:
+  TEST: "test_var"
+
+# 定义CI阶段
+stages:
+  - test
+  - package
+  - build # 已在外部模板定义
+  - release # 已在外部模板定义
+  - deploy # 已在外部模板定义
+
+# 编译&打包任务（固定任务名，docker-build任务将以此作为依赖，以传递artifacts）
+docker-dependencies:
+  image: node:lts-alpine
+  stage: package
+  cache:
+    paths:
+      - node_modules/
+      - package-lock.json
+  only:
+    - develop
+    - master
+    - local
+  script:
+    # - ls -la ~/.ssh/
+    # - cat ~/.ssh/known_hosts
+    - echo dependencies for image $TEST_IMAGE
+    - echo $CI_PROJECT_DIR
+    - cd $CI_PROJECT_DIR
+    - ls
+    - pwd
+    # 安装源加速
+    # - sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
+    # - apk add --no-cache openssh git
+    # - git submodule update --init --recursive
+    - >
+      echo -e \"$CI_COMMIT_SHORT_SHA\" > src/version.json
+    - npm config set registry https://registry.npm.taobao.org
+    - npm install
+    - npm run build
+  # 传递artifacts内容
+  artifacts:
+    paths:
+      - dist/
+    # 这里必须是固定的dist文件夹
+
+# docker image 编译任务
+# docker-build:
+#   extends: .docker-build
+
+# docker compose image 编译任务
+compose-build:
+  extends:
+    - .compose-build
+    # 用于覆盖默认runner， 传递cache，演示用途，非必须
+  only:
+    - develop
+    - master
+    - local
+
+# 使用Harbor api进行tag，速度较快，但设置需要HARBOR_TOKEN环境变量
+harbor-release:
+  extends: .harbor-release
+
+# 使用Docker进行tag
+docker-release:
+  extends: .docker-release
+  # 跳过该任务的自动执行
+  only:
+    - disabled
+
+# 部署到Rancher
+rancher-deploy:
+  extends: .rancher-deploy  
+  only:
+    - develop
+    - master
+    - local
