@@ -1,0 +1,24 @@
+$--color-primary: #ff6600;
+$--color-success: #13ce66;
+$--color-warning: #FFBA00;
+$--color-danger: #ff4949;
+$--color-info: #CCCCCC;
+
+$--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+$--border-color-light: #ddd;
+$--border-color-lighter: #e6ebf5;
+$--color-text-primary:#333;
+$--color-text-regular:#666;
+$--color-text-secondary:#999;
+
+$--table-border:1px solid #DDDDDD;
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "../../../node_modules/element-ui/packages/theme-chalk/src/index";
+
+:export {
+    theme: $--color-primary;
+}

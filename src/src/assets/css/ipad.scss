@@ -1,0 +1,86 @@
+@media screen and (max-width: 1400px) {
+    .home{
+        nav{
+            width: 100px;
+            .el-menu-item{
+                padding:0 10px !important;
+                .svg-icon{
+                    width: 1rem;
+                    height: 1rem;
+                }
+            }
+            .nav-title{
+                font-size: 12px;
+                margin-left: 4px;
+            }
+           
+        }
+    }
+    
+    .home-content {
+        .state_stat .text{
+            margin-top: 20px;
+        }
+        .device{
+            padding: 15px 10px !important;
+        }
+        .state_stat .title{
+            font-size: 14px !important;
+        }
+        .device .title .suggestion-text{
+            font-size: 12px !important;
+        }
+        .el-col{
+           padding-right: 0 !important;
+           border-radius: 5px;
+        }
+        .el-row{
+            margin-right: 0 !important;
+        }
+        .features{
+            margin: 0 -10px 0 0 !important;;
+        }
+        .features .feature-item{
+            margin: 20px 10px 0 0 !important;
+            max-width: 50% !important;
+        }
+        .top-bar{
+            height: 40px;
+            position: fixed;
+            left: 100px;
+             z-index: 100;
+        }
+        .top-bar .top-menu{
+            line-height: 40px;
+        }
+        .top-bar .top-menu .top-link{
+            padding: 3px 8px
+        }
+        .user-content{
+            line-height: 40px; 
+        }
+        .home-body{
+            padding: 40px 10px 10px !important;
+        }
+        .filter-content .filter-content .el-radio-button__inner{
+            padding: 6px 8px !important;
+        }
+        .filter-content .filter-content .el-checkbox{
+            height: 30px;
+            line-height: 30px;
+        }
+        .filter-content .filter-item{
+            line-height: 30px !important;
+            padding:10px 0;
+        }
+        .el-dialog.el-dialog--center .el-dialog__body{
+            padding:0 10px 10px 10px;
+        }
+        .el-form .el-form-item{
+            margin-bottom: 10px;
+        }
+        .form-footer{
+            margin-top: 20px;
+        }
+    }
+}
