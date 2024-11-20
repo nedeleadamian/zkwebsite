@@ -573,12 +573,12 @@ export default {
       }, {
         name: "Phase 2",
         content: "Ecosystem Expansion",
-        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Integration of account abstraction and advanced smart contract capabilities</p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Token staking and reward mechanisms</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
+        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
       }, {
         name: "Phase 3",
         content: "Full Decentralization & Governance",
         intro:
-          "<p>· Transition to a decentralized governance model, allowing OZK stakers to vote on network upgrades and decisions</p><p>· Expansion of cross-chain interoperability</p><p>· Further optimization of transaction throughput and network scalability through continued technological upgrades</p>"
+          "<p>· Transition to a decentralized governance model, allowing OZK stakers to vote on network upgrades and decisions</p><p>· Decentralisation of key components enhancing security and promoting a more decentralised governance structure.</p><p>· Expansion of cross-chain interoperability</p><p>· Further optimization of transaction throughput and network scalability through continued technological upgrades</p>"
       }],
       CommunityList: [{
         name: "Join the OpenZK Community",
