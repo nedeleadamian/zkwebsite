@@ -412,7 +412,7 @@
                 </div>
             </div>
         </div>
-        <div
+        <!-- <div
             id="Community"
             class="Community  wow fadeInUp "
             data-wow-delay="200ms"
@@ -435,7 +435,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div
             id="FAQ"
             class="FAQ  wow fadeInUp "

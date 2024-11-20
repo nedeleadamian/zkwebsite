@@ -401,7 +401,7 @@
         </div>
       </div>
     </div>
-    <div id="Community" class="Community ">
+    <!-- <div id="Community" class="Community ">
       <div class="con">
         <div class="title wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
           Community & News
@@ -417,7 +417,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div id="FAQ" class="FAQ  ">
       <div class="con">
         <div class="title  wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
