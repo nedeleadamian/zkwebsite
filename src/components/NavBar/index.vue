@@ -59,11 +59,6 @@ export default {
           en: "Team",
         },
         {
-          path: "#Community",
-          cn: "Community",
-          en: "Community",
-        },
-        {
           path: "#FAQ",
           cn: "FAQ",
           en: "FAQ",
