@@ -23,9 +23,7 @@
             Leading Layer 2 Solution
           </div>
           <div class="four">
-            OpenZK is the first L2 to seamlessly integrating ZK Rollup with ETH mainnet staking, liquid restaking and
-            stablecoin earn in one click while offering peerless opportunities for DeFi, RWA and high-frequency trading
-            applications.
+            OpenZK Network is the first layer 2 solution on ZK rollup technology to unite native ETH staking, liquid restaking and stablecoin staking in one seamless platform. Built for superior performance in DeFi, Real World Assets, and trading applications.
           </div>
         </div>
         <div class="right wow fadeIn" data-wow-delay="600ms" data-wow-duration="3000ms">
@@ -185,11 +183,10 @@
           </div>
         </div>
         <div class="intro  wow fadeIn" data-wow-delay="200ms" data-wow-duration="1000ms">
-          Earn <span>10</span>x Bonus Points for Early Birds!
+          Earn <span>10</span>x Airdrop Point Multiplier for Early Participants
         </div>
         <div class="detail wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
-          Stake now to earn ETH from Ethereum mainnet staking and liquid restaking, stablecoin reward from Defi and RWA
-          protocols, </br>and collect Airdrop Points for airdrop!
+          Bridge ETH and stablecoins to OpenZK Network from Ethereum now and automatically benefit from ETH mainnet staking and restaking, </br>stablecoin rewards and Airdrop Points 
         </div>
       </div>
     </div>
@@ -476,16 +473,16 @@ export default {
       currentIntro: 1,
       AboutList: [{
         src: require('@/assets/imgs/icon_drivi_1@2x.png'),
-        name: "Driving the Change",
-        content: "OpenZK's Rollup solution addresses the core challenges of blockchain - scalability, cost efficiency and security. Additionally, we integrate the ZK Rollup technology with native ETH mainnet staking, liquid restaking and stablecoin earn to further driving the mass adoption of the L2."
+        name: "Driving Change",
+        content: "OpenZK Network’s rollup solution addresses the core challenges of blockchain technology – scalability, cost efficiency, and security.  By combining ZK rollup technology with native ETH staking, liquid restaking and stablecoin staking rewards, OpenZK Network aims to enhance user benefits and accelerate L2 adoption."
       }, {
         src: require('@/assets/imgs/icon_future_2@2x.png'),
         name: "Future Blueprint",
-        content: "OpenZK Network is committed to building a scalable, efficient Layer 2 network using zero-knowledge proof technology, to offer unmatched opportunity for DeFi, RWA and high-frequency trading applications."
+        content: "Open ZK network is committed to building in a scalable, efficient layer 2 using zero knowledge proof technology to offer unmatched opportunity for DeFi, RWA and trading applications."
       }, {
         src: require('@/assets/imgs/icon_pione_3@2x.png'),
-        name: "Pioneering Technological  Innovation",
-        content: "OpenZK Network is a Layer 2 solution based on ZK Rollup technology. Leveraging zk-SNARK and account abstraction, we provide developers with a powerful, Ethereum-compatible smart contract platform. With a unique cross-chain bridge and native staking rewarding mechanism, OpenZK brings unmatched scalability and flexibility."
+        name: "Pioneering Technological Innovation",
+        content: "OpenZK Network is an advanced layer 2 solution built on ZK rollup technology. We offer developers a powerful Ethereum-compatible development platform. With our integrated cross-chain bridge and native staking mechanisms, Open ZK Network delivers exceptional scalability and flexibility."
       }],
       FeaturesOneList: [{
         name: "Native ETH Staking Reward",
