@@ -23,9 +23,7 @@
             Leading Layer 2 Solution
           </div>
           <div class="four">
-            OpenZK is the first L2 to seamlessly integrating ZK Rollup with ETH mainnet staking, liquid restaking and
-            stablecoin earn in one click while offering peerless opportunities for DeFi, RWA and high-frequency trading
-            applications.
+            OpenZK Network is the first layer 2 solution on ZK rollup technology to unite native ETH staking, liquid restaking and stablecoin staking in one seamless platform. Built for superior performance in DeFi, Real World Assets, and trading applications.
           </div>
         </div>
         <div class="right wow fadeIn" data-wow-delay="600ms" data-wow-duration="3000ms">
@@ -185,11 +183,10 @@
           </div>
         </div>
         <div class="intro  wow fadeIn" data-wow-delay="200ms" data-wow-duration="1000ms">
-          Earn <span>10</span>x Bonus Points for Early Birds!
+          Earn <span>10</span>x Airdrop Point Multiplier for Early Participants
         </div>
         <div class="detail wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
-          Stake now to earn ETH from Ethereum mainnet staking and liquid restaking, stablecoin reward from Defi and RWA
-          protocols, </br>and collect Airdrop Points for airdrop!
+          Bridge ETH and stablecoins to OpenZK Network from Ethereum now and automatically benefit from ETH mainnet staking and restaking, </br>stablecoin rewards and Airdrop Points 
         </div>
       </div>
     </div>
@@ -476,33 +473,33 @@ export default {
       currentIntro: 1,
       AboutList: [{
         src: require('@/assets/imgs/icon_drivi_1@2x.png'),
-        name: "Driving the Change",
-        content: "OpenZK's Rollup solution addresses the core challenges of blockchain - scalability, cost efficiency and security. Additionally, we integrate the ZK Rollup technology with native ETH mainnet staking, liquid restaking and stablecoin earn to further driving the mass adoption of the L2."
+        name: "Driving Change",
+        content: "OpenZK Network’s rollup solution addresses the core challenges of blockchain technology – scalability, cost efficiency, and security.  By combining ZK rollup technology with native ETH staking, liquid restaking and stablecoin staking rewards, OpenZK Network aims to enhance user benefits and accelerate L2 adoption."
       }, {
         src: require('@/assets/imgs/icon_future_2@2x.png'),
         name: "Future Blueprint",
-        content: "OpenZK Network is committed to building a scalable, efficient Layer 2 network using zero-knowledge proof technology, to offer unmatched oppurtunity for DeFi, RWA and high-frequency trading applications."
+        content: "Open ZK network is committed to building in a scalable, efficient layer 2 using zero knowledge proof technology to offer unmatched opportunity for DeFi, RWA and trading applications."
       }, {
         src: require('@/assets/imgs/icon_pione_3@2x.png'),
-        name: "Pioneering Technological  Innovation",
-        content: "OpenZK Network is a Layer 2 solution based on ZK Rollup technology. Leveraging zk-SNARK and account abstraction, we provide developers with a powerful, Ethereum-compatible smart contract platform. With a unique cross-chain bridge and native staking rewarding mechanism, OpenZK brings unmatched scalability and flexibility."
+        name: "Pioneering Technological Innovation",
+        content: "OpenZK Network is an advanced layer 2 solution built on ZK rollup technology. We offer developers a powerful Ethereum-compatible development platform. With our integrated cross-chain bridge and native staking mechanisms, Open ZK Network delivers exceptional scalability and flexibility."
       }],
       FeaturesOneList: [{
         name: "Native ETH Staking Reward",
-        content: "With OpenZK Network's Layer 2 solution, users can stake ETH and earn native rewards from Ethereum mainnet as well as liquid restaking. Unlike other Layer 2 solutions, OpenZK intergrates direct rewards from native ETH Staking and restaking via L2, providing low-cost, high-reward opportunities for DeFi users.<p>· Competitive Staking Reward: Stake ETH and earn native reward from Ethereum mainnet plus additional restaking reward.</p><p>· Low Cost, High Returns: Reduce transaction fees with Layer 2 technology while maximizing staking and restaking rewards.</p><p>· Secure and Decentralized: ZK Rollup technology ensures the efficiency and security of transactions, anchored by Ethereum's robust security.</p>"
+        content: "With OpenZK Network's Layer 2 solution, users can stake ETH and earn native rewards from Ethereum mainnet as well as liquid restaking. Unlike other Layer 2 solutions, OpenZK integrates direct rewards from native ETH Staking and restaking via L2, providing low-cost, high-reward opportunities for DeFi users.<p>· Competitive Staking Reward: Stake ETH and earn native reward from Ethereum mainnet plus additional restaking reward.</p><p>· Low Cost, High Returns: Reduce transaction fees with Layer 2 technology while maximizing staking and restaking rewards.</p><p>· Secure and Decentralized: ZK Rollup technology ensures the efficiency and security of transactions, anchored by Ethereum's robust security.</p>"
       }, {
         name: "ETH Restaking and Stablecoin Staking",
-        content: "OpenZK combines additional liquid restaking oppurtunities with native ETH staking for better earning potentials while supporting decentralization and security of Ethereum ecosystem.<p> OpenZK also intergrates multi-dimensional stablecoin staking options from DeFi and RWA protocols, allowing users to stake stablecoins via L2 for competitive DeFi rewards.</p><p>· Beyond Staking: OpenZK's ETH staking solutions intergrate both staking and restaking in one click.</p><p> · Competitive Returns: Enjoy the benefits of both staking reward and flexibility from DeFi and RWA protocols.</p><p>· Diverse Opportunities: Unlocking the potential of staked ETH or stablecoin for even greater utility, liquidity and reward.</p>"
+        content: "Open ZK combines additional liquid staking opportunities with native ETH staking to maximise earning potential while supporting decentralization and the security of the Ethereum ecosystem.<p> Open ZK also integrates multidimensional stablecoin staking options from Defi and RWA protocols, allowing users to stake stablecoins via OpenZK and benefit from staking rewards while maintaining liquidity.</p><p>· Beyond Staking: OpenZK’s native ETH staking solutions integrate both staking and restaking in a single click.</p><p> · Maximise Earning Potential: Enjoy the benefits of both staking/restaking rewards and the flexibility afforded by Defi and RWA protocols.</p><p>· Diverse Opportunities: Unlock the potential of staked ETH or stablecoin for even greater utility, liquidity and rewards.</p>"
       }],
       FeaturesTwoList: [{
         name: "Cross-chain</br>Interoperability",
         content: "Our native cross-chain bridge enables seamless asset and data transfers between multiple blockchains, enhancing collaboration and functionality across ecosystems. OpenZK breaks the barriers of isolated blockchains, supporting more cross-chain financial applications."
       }, {
         name: "Security Model",
-        content: "OpenZK's Rollup solution uses zk-SNARKs to prove the validity of each batch of transactions. This prevents the possibility offraud byensuring that all transactions are verified before being finalized on Ethereum."
+        content: "OpenZK’s rollup solution uses zk-SNARKs to prove the validity of each batch of transactions. This prevents the possibility of fraud by ensuring that all transaction to verified before being finalized on Ethereum."
       }, {
-        name: "Native Tokenomics</br> (OZK Tokenomics)",
-        content: "OZKis the native token for openZK Network, plavina a critical role in alianina incentives within the ecosvstem.oZK servesmultiple utilities including governance rights, stakingincentives, deflationary model, and potentialnetwork fee mechanisms."
+        name: "Tokenomics",
+        content: "OZK is the native token for the OpenZK Network, playing a crucial role in aligning incentives within the ecosystem. It is anticipated that OZK will follow a deflationary model and serve multiple purposes including utility in governance rights, staking incentives, and potential network fee mechanisms."
       }],
       ToolsList: [{
         src: require('@/assets/imgs/icon_tools_1@2x.png'),
@@ -576,12 +573,12 @@ export default {
       }, {
         name: "Phase 2",
         content: "Ecosystem Expansion",
-        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Integration of account abstraction and advanced smart contract capabilities</p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Token staking and reward mechanisms</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
+        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
       }, {
         name: "Phase 3",
         content: "Full Decentralization & Governance",
         intro:
-          "<p>· Transition to a decentralized governance model, allowing OZK stakers to vote on network upgrades and decisions</p><p>· Expansion of cross-chain interoperability</p><p>· Further optimization of transaction throughput and network scalability through continued technological upgrades</p>"
+          "<p>· Transition to a decentralized governance model, allowing OZK stakers to vote on network upgrades and decisions</p><p>· Decentralisation of key components enhancing security and promoting a more decentralised governance structure.</p><p>· Expansion of cross-chain interoperability</p><p>· Further optimization of transaction throughput and network scalability through continued technological upgrades</p>"
       }],
       CommunityList: [{
         name: "Join the OpenZK Community",
