@@ -1,30 +1,15 @@
 <template>
   <div>
-    <vue-seamless-scroll
-      :data="list"
-      class="seamless-warp-img"
-      :class-option="optionSingleHeightTime"
-    >
+    <vue-seamless-scroll :data="list" class="seamless-warp-img" :class-option="optionSingleHeightTime">
       <!-- 在需要添加点击事件的元素上绑定 :data-obj="JSON.stringify(item)" 否则事件无法触发且会抱错 -->
-      <div
-        class="item "
-        v-for="(item, index) in list"
-        :key="index"
-        :data-obj="JSON.stringify(item)"
-      >
+      <div class="item " v-for="(item, index) in list" :key="index" :data-obj="JSON.stringify(item)">
         <div class="swiperCon">
           <div class="left">
-            <img
-              :src="item.one"
-              alt="">
+            <img :src="item.one" alt="">
           </div>
           <div class="right">
-            <img class="one"
-              :src="item.two"
-              alt="">
-            <img
-              :src="item.three"
-              alt="">
+            <img class="one" :src="item.two" alt="">
+            <img :src="item.three" alt="">
           </div>
         </div>
       </div>
@@ -59,61 +44,68 @@ export default {
   data() {
     return {
       list: [{
-          one: require('@/assets/imgs/img_zp1@2x.png'),
-          two: require('@/assets/imgs/img_zp2@2x.png'),
-          three: require('@/assets/imgs/img_zp3@2x.png'),
-      },{
-          one: require('@/assets/imgs/img_zp4@2x.png'),
-          two: require('@/assets/imgs/img_zp5@2x.png'),
-          three: require('@/assets/imgs/img_zp6@2x.png'),
-      },{
-          one: require('@/assets/imgs/img_zp1@2x.png'),
-          two: require('@/assets/imgs/img_zp2@2x.png'),
-          three: require('@/assets/imgs/img_zp3@2x.png'),
-      },{
-          one: require('@/assets/imgs/img_zp4@2x.png'),
-          two: require('@/assets/imgs/img_zp5@2x.png'),
-          three: require('@/assets/imgs/img_zp6@2x.png'),
+        one: require('@/assets/imgs/img_zp1@2x.png'),
+        two: require('@/assets/imgs/img_zp2@2x.png'),
+        three: require('@/assets/imgs/img_zp3@2x.png'),
+      }, {
+        one: require('@/assets/imgs/img_zp4@2x.png'),
+        two: require('@/assets/imgs/img_zp5@2x.png'),
+        three: require('@/assets/imgs/img_zp6@2x.png'),
+      }, {
+        one: require('@/assets/imgs/img_zp1@2x.png'),
+        two: require('@/assets/imgs/img_zp2@2x.png'),
+        three: require('@/assets/imgs/img_zp3@2x.png'),
+      }, {
+        one: require('@/assets/imgs/img_zp4@2x.png'),
+        two: require('@/assets/imgs/img_zp5@2x.png'),
+        three: require('@/assets/imgs/img_zp6@2x.png'),
       },],
     }
   },
 }
 </script>
 
-<style  lang="scss">
+<style lang="scss">
 .seamless-warp-img {
   height: 100%;
   overflow: hidden;
   width: 100%;
   white-space: nowrap;
   margin-top: 45px;
+
   .item {
-  display: inline-block;
-}
-.swiperCon{
-  display: flex;
-  flex-direction: row;
-    .left{
+    display: inline-block;
+  }
+
+  .swiperCon {
+    display: flex;
+    flex-direction: row;
+
+    .left {
       margin-right: 16px;
       margin-left: 16px;
-      img{
+
+      img {
         width: 362px;
       }
     }
-    .right{
+
+    .right {
       display: flex;
       flex-direction: column;
-      .one{
+
+      .one {
         margin-bottom: 16px;
       }
-      img{
+
+      img {
         width: 261px;
       }
     }
   }
 }
-.seamless-warp-img > div {
+
+.seamless-warp-img>div {
   display: flex;
 }
-
 </style>

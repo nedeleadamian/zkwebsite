@@ -8,7 +8,7 @@
 <script>
 export default {
   name: 'star',
-  mounted(){
+  mounted() {
     var wH = window.innerHeight;
     var wW = window.innerWidth;
 
@@ -22,14 +22,13 @@ export default {
       }
     };
 
-    generateStars(150);   
+    generateStars(150);
 
   },
 }
 </script>
 
 <style lang="scss">
-
 .star {
   width: 3px;
   height: 3px;
@@ -39,10 +38,12 @@ export default {
   box-shadow: 0 0 40px 0 rgba(237, 205, 163, 0.8), 0 0 20px 0 #FFFFFF;
   animation: glow 5s infinite;
 }
+
 .star--medium {
   width: 6px;
   height: 6px;
 }
+
 .star--big {
   width: 9px;
   height: 9px;
@@ -60,6 +61,7 @@ export default {
   transform: rotate(-45deg) translate(0, -50px);
   animation: comet 6s infinite;
 }
+
 .comet:after {
   content: '';
   width: 20vw;
@@ -76,29 +78,34 @@ export default {
   0% {
     opacity: 0.9;
   }
+
   50% {
     opacity: 0.2;
   }
+
   100% {
     opacity: 0.9;
   }
 }
+
 @keyframes comet {
   0% {
     transform: rotate(-45deg) translateX(0);
     opacity: 0.3;
   }
+
   10% {
     opacity: 1;
   }
+
   20% {
     transform: rotate(-45deg) translateX(-100vw);
     opacity: 0;
   }
+
   100% {
     transform: rotate(-45deg) translateX(-100vw);
     opacity: 0;
   }
 }
-
 </style>
