@@ -354,7 +354,7 @@
         </div>
       </div>
     </div>
-    <div id="Events" class="Events ">
+    <!-- <div id="Events" class="Events ">
       <div class="con">
         <div class="title wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
           Events Around the World
@@ -364,7 +364,7 @@
         </div>
         <imgScroll />
       </div>
-    </div>
+    </div> -->
     <div id="Roadmap" class="Roadmap">
       <div class="con">
         <div class="title wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">

@@ -2,30 +2,44 @@
   <div>
     <div class="star comet"></div>
   </div>
-
 </template>
 
 <script>
 export default {
-  name: 'star',
+  name: "star",
   mounted() {
     var wH = window.innerHeight;
     var wW = window.innerWidth;
 
     var generateStars = function generateStars(n) {
       for (var i = 0; i < n; i++) {
-        var div = document.createElement('div');
-        div.className = i % 20 == 0 ? 'star star--medium' : i % 9 == 0 ? 'star star--medium' : 'star';
+        var div = document.createElement("div");
+        div.className =
+          i % 20 == 0
+            ? "star star--medium"
+            : i % 9 == 0
+            ? "star star--medium"
+            : "star";
         // random everywhere!
-        div.setAttribute('style', 'top:' + Math.round(Math.random() * wH) + 'px;left:' + Math.round(Math.random() * wW) + 'px;animation-duration:' + (Math.round(Math.random() * 3000) + 3000) + 'ms;animation-delay:' + Math.round(Math.random() * 3000) + 'ms;');
-        document.getElementById('Home').appendChild(div);
+        div.setAttribute(
+          "style",
+          "top:" +
+            Math.round(Math.random() * wH) +
+            "px;left:" +
+            Math.round(Math.random() * wW) +
+            "px;animation-duration:" +
+            (Math.round(Math.random() * 3000) + 3000) +
+            "ms;animation-delay:" +
+            Math.round(Math.random() * 3000) +
+            "ms;"
+        );
+        document.getElementById("Home").appendChild(div);
       }
     };
 
     generateStars(150);
-
   },
-}
+};
 </script>
 
 <style lang="scss">
@@ -35,7 +49,7 @@ export default {
   border-radius: 50%;
   position: absolute;
   background-color: rgba(237, 205, 163, 0.8);
-  box-shadow: 0 0 40px 0 rgba(237, 205, 163, 0.8), 0 0 20px 0 #FFFFFF;
+  box-shadow: 0 0 40px 0 rgba(237, 205, 163, 0.8), 0 0 20px 0 #ffffff;
   animation: glow 5s infinite;
 }
 
@@ -47,14 +61,15 @@ export default {
 .star--big {
   width: 9px;
   height: 9px;
-  box-shadow: 0 0 40px 0 #EDCDA3, 0 0 20px 0 #FFFFFF, inset 0 0 4px #FFFFFF;
+  box-shadow: 0 0 40px 0 #edcda3, 0 0 20px 0 #ffffff, inset 0 0 4px #ffffff;
 }
 
 .comet {
   width: 6px;
   height: 6px;
   background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 0 40px 0 #EDCDA3, 0 0 20px 0 #FFFFFF, inset 0 0 8px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 40px 0 #edcda3, 0 0 20px 0 #ffffff,
+    inset 0 0 8px rgba(255, 255, 255, 0.6);
   top: 0;
   left: 80%;
   opacity: 0.3;
@@ -63,7 +78,7 @@ export default {
 }
 
 .comet:after {
-  content: '';
+  content: "";
   width: 20vw;
   height: 6px;
   border-radius: 50%;
