@@ -499,10 +499,10 @@ export default {
         content: "Our native cross-chain bridge enables seamless asset and data transfers between multiple blockchains, enhancing collaboration and functionality across ecosystems. OpenZK breaks the barriers of isolated blockchains, supporting more cross-chain financial applications."
       }, {
         name: "Security Model",
-        content: "OpenZK's Rollup solution uses zk-SNARKs to prove the validity of each batch of transactions. This prevents the possibility offraud bye nsuring that all transactions are verified before being finalized on Ethereum."
+        content: "OpenZK’s rollup solution uses zk-SNARKs to prove the validity of each batch of transactions. This prevents the possibility of fraud by ensuring that all transaction to verified before being finalized on Ethereum."
       }, {
-        name: "Native Tokenomics</br> (OZK Tokenomics)",
-        content: "OZKis the native token for openZK Network, plaving a critical role in alianina incentives within the ecosvstem.oZK servesmultiple utilities including governance rights, stakingincentives, deflationary model, and potentialnetwork fee mechanisms."
+        name: "Tokenomics",
+        content: "OZK is the native token for the OpenZK Network, playing a crucial role in aligning incentives within the ecosystem. It is anticipated that OZK will follow a deflationary model and serve multiple purposes including utility in governance rights, staking incentives, and potential network fee mechanisms."
       }],
       ToolsList: [{
         src: require('@/assets/imgs/icon_tools_1@2x.png'),
