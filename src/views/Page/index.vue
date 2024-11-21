@@ -609,14 +609,6 @@ export default {
         cn: 'Team',
         en: 'Team',
       }, {
-        path: '#Events',
-        cn: 'Events',
-        en: 'Events',
-      }, {
-        path: '#Community',
-        cn: 'Community',
-        en: 'Community',
-      }, {
         path: '#FAQ',
         cn: 'FAQ',
         en: 'FAQ',
