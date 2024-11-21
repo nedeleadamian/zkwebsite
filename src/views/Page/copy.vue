@@ -23,7 +23,7 @@
             Leading Layer 2 Solution
           </div>
           <div class="four">
-            OpenZK Network is the first layer 2 solution on ZK rollup technology to unite native ETH staking, liquid restaking and stablecoin staking in one seamless platform. Built for superior performance in DeFi, Real World Assets, and trading applications.
+            OpenZK Network is the first layer 2 solution on ZK rollup technology to unite ETH staking, liquid restaking and stablecoin rewards in one seamless platform. Built for superior performance in DeFi, Real World Assets, and trading applications.
           </div>
         </div>
         <div class="right wow fadeIn" data-wow-delay="600ms" data-wow-duration="3000ms">
