@@ -488,7 +488,7 @@ export default {
       }, {
         src: require('@/assets/imgs/icon_pione_3@2x.png'),
         name: "Pioneering Technological  Innovation",
-        content: "OpenZK Network is a Layer 2 solution based on ZK Rollup technology. Leveraging zk-SNARK and account abstraction, we provide developers with a powerful, Ethereum-compatible smart contract platform. With a unique cross-chain bridge and native staking rewarding mechanism, OpenZK brings unmatched scalability and flexibility."
+        content: "OpenZK Network is an advanced layer 2 solution built on ZK rollup technology. We offer developers a powerful Ethereum-compatible development platform. With our integrated cross-chain bridge and native staking mechanisms, Open ZK Network delivers exceptional scalability and flexibility."
       }],
       FeaturesOneList: [{
         name: "Native ETH Staking Reward",
