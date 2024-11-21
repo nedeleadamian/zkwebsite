@@ -76,11 +76,11 @@
         </div>
       </div>
     </div>
-    <div id="Tags" class="Tags  wow fadeIn " data-wow-delay="200ms" data-wow-duration="3000ms">
+    <!-- <div id="Tags" class="Tags  wow fadeIn " data-wow-delay="200ms" data-wow-duration="3000ms">
       <div class="con">
         <marqueeLeft />
       </div>
-    </div>
+    </div> -->
     <div id="About" class="About">
       <div class="con">
         <div class="title wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
@@ -464,7 +464,7 @@ export default {
     NavBar,
     Swiper,
     SwiperSlide,
-    marqueeLeft,
+    // marqueeLeft,
     // imgScroll,
     star
   },
