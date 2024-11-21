@@ -480,7 +480,7 @@ export default {
       AboutList: [{
         src: require('@/assets/imgs/icon_drivi_1@2x.png'),
         name: "Driving Change",
-        content: "OpenZK Network’s rollup solution addresses the core challenges of blockchain technology – scalability, cost efficiency, and security.  By combining ZK rollup technology with native ETH staking, liquid restaking and stablecoin staking rewards, OpenZK Network aims to enhance user benefits and accelerate L2 adoption."
+        content: "OpenZK Network's rollup solution addresses the core challenges of blockchain technology – scalability, cost efficiency, and security.  By combining ZK rollup technology with native ETH staking, liquid restaking and stablecoin staking rewards, OpenZK Network aims to enhance user benefits and accelerate L2 adoption."
       }, {
         src: require('@/assets/imgs/icon_future_2@2x.png'),
         name: "Future Blueprint",
