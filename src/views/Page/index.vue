@@ -62,17 +62,17 @@
           <div class="two">
             <div class="btnGroup">
               <div class="btn" @mouseover="currentIntro = 1">
-                <img class="icon" src="@/assets/imgs/icon_eth@2x.png" alt=""> ETH <span>3</span>%
+                <img class="icon" src="@/assets/imgs/icon_eth@2x.png" alt=""> ETH <span>5.9</span>%
               </div>
               <div class="btn" @mouseover="currentIntro = 2">
-                <img class="icon" src="@/assets/imgs/icon_btc@2x.png" alt=""> Stablecoins <span>6</span>%
+                <img class="icon" src="@/assets/imgs/icon_btc@2x.png" alt=""> Stablecoins <span>8.5</span>%
               </div>
             </div>
             <div v-if="currentIntro === 1" class="intro introOne">
               5.9% ETH earn via mainnet staking and liquid restaking plus </br><span>Airdrop Points</span>
             </div>
             <div v-else class="intro introTne">
-              8.9% Stablecoin earn via Defi and RWA protocols plus <span>Airdrop Points</span>
+              8.5% Stablecoin earn via Defi and RWA protocols plus <span>Airdrop Points</span>
             </div>
           </div>
         </div>
