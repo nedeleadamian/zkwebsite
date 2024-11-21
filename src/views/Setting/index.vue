@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div
+        <div
             id="Tags"
             class="Tags  wow fadeInUp "
             data-wow-delay="200ms"
@@ -93,7 +93,7 @@
             <div class="con">
                 <marqueeLeft />
             </div>
-        </div> -->
+        </div>
         <div
             id="About"
             class="Abouts  wow fadeInUp "

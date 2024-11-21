@@ -78,11 +78,11 @@
         </div>
       </div>
     </div>
-    <div id="Tags" class="Tags  wow fadeIn " data-wow-delay="200ms" data-wow-duration="3000ms">
+    <!-- <div id="Tags" class="Tags  wow fadeIn " data-wow-delay="200ms" data-wow-duration="3000ms">
       <div class="con">
         <marqueeLeft />
       </div>
-    </div>
+    </div> -->
     <div id="About" class="About">
       <div class="con">
         <div class="title wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
@@ -461,8 +461,8 @@
 <script>
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import NavBar from '@/components/NavBar'
-import marqueeLeft from "./scroll.vue";
-import imgScroll from "./imgScroll.vue";
+// import marqueeLeft from "./scroll.vue";
+// import imgScroll from "./imgScroll.vue";
 import star from "./star.vue";
 let timer = null;
 export default {
@@ -470,8 +470,8 @@ export default {
     NavBar,
     Swiper,
     SwiperSlide,
-    marqueeLeft,
-    imgScroll,
+    // marqueeLeft,
+    // imgScroll,
     star
   },
   data() {
