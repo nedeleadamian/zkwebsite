@@ -573,7 +573,7 @@ export default {
       }, {
         name: "Phase 2",
         content: "Ecosystem Expansion",
-        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
+        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality</p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
       }, {
         name: "Phase 3",
         content: "Full Decentralization & Governance",
@@ -594,15 +594,15 @@ export default {
       }, {
         show: false,
         name: "Why choose OpenZK Network?",
-        content: "OpenZK Network utilizes cutting-edge zero-knowledge proof technology to solve Ethereum's scalability challenges. Users benefit from faster, cheaper transactions and the ability to earn yields through staking, all while ensuring high security and privacy."
+        content: "OpenZK Network utilises cutting edge zero-knowledge proof technology to solve Ethereum’s scalability challenges. Users benefit from faster, cheaper transactions and the rewards generated from the automatic staking/restaking of bridged assets (ETH/stablecoins) to the network."
       }, {
         show: false,
         name: "How do I stake and earn rewards?",
-        content: "Users can connect their wallets and stake ETH or stablecoins on the OpenZK Network. After staking, users earn rewards based on the amount and duration of their staking, with opportunities to participate in network governance."
+        content: "Users are able to connect their wallet and bridge assets like ETH and stablecoins (USDT / USDC) to the OpenZK Network with a single click through our native bridge. After bridging, staking and restaking of ETH takes place automatically (through Rocket Pool and Ether.fi initially) as does the staking of stablecoins (through Spark.fi). In both cases the ETH and stablecoin that have been bridged and staked by the user will be represented on the OpenZK Network by liquid tokens, ozkETH and ozkUSD respectively."
       }, {
         show: false,
-        name: "What is the OpenZK tokenomics model?",
-        content: "OZK is the native token of the network, and it is designed with a deflationary model. As network usage increases, OZK token supply decreases, driving its scarcity and long-term value. A portion of each transaction is burned, ensuring continued value growth."
+        name: "What is the OpenZK Network tokenomics model?",
+        content: "OZK will be the native token of the OpenZK Network. It is expected that OZK will have utility in governance rights, payment for gas fees and staking. It is likely OZK will follow a deflationary model, with a portion of OZK used in payment of gas fees being burned and scarcity increasing over time."
       }, {
         show: false,
         name: "How can developers start using OpenZK?",
