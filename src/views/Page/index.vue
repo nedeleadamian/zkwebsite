@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="intro" style="margin-left: 10px;">
-              plus <span class="first">Airdrop Point</span><span class="second"> X 10</span> </br> for early birds
+              Testnet available now</br>Airdrop points and Multipliers for early participants upon Mainnet launch
             </div>
           </div>
           <div class="two">
@@ -69,10 +69,10 @@
               </div>
             </div>
             <div v-if="currentIntro === 1" class="intro introOne">
-              3% ETH earn via mainnet staking and liquid restaking plus </br><span>Airdrop Points</span>
+              5.9% ETH earn via mainnet staking and liquid restaking plus </br><span>Airdrop Points</span>
             </div>
             <div v-else class="intro introTne">
-              6% Stablecoin earn via Defi and RWA protocols plus <span>Airdrop Points</span>
+              8.9% Stablecoin earn via Defi and RWA protocols plus <span>Airdrop Points</span>
             </div>
           </div>
         </div>
