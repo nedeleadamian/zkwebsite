@@ -441,40 +441,8 @@ export default {
         content: "Chief Executive Officer (CEO)"
       }, {
         src: require('@/assets/imgs/img_tx_2@2x.png'),
-        name: "Emily Collins",
+        name: "Lucas Cullen",
         content: "Chief Technology Officer (CTO)"
-      }, {
-        src: require('@/assets/imgs/img_tx_3@2x.png'),
-        name: "Michael Rodriguez",
-        content: "Chief Operations Officer (COO)"
-      }, {
-        src: require('@/assets/imgs/img_tx_4@2x.png'),
-        name: "Sarah Thompson",
-        content: "Head of Cryptography"
-      }, {
-        src: require('@/assets/imgs/img_tx_5@2x.png'),
-        name: "David Nguyen",
-        content: "Lead Blockchain Engineer"
-      }, {
-        src: require('@/assets/imgs/img_tx_6@2x.png'),
-        name: "Rebecca White",
-        content: "Head of ProductHead of Product"
-      }, {
-        src: require('@/assets/imgs/img_tx_7@2x.png'),
-        name: "James Wright",
-        content: "Head of Partnerships"
-      }, {
-        src: require('@/assets/imgs/img_tx_8@2x.png'),
-        name: "Olivia Martinez",
-        content: "Chief Marketing Officer (CMO)"
-      }, {
-        src: require('@/assets/imgs/img_tx_9@2x.png'),
-        name: "Andrew Clark",
-        content: "Senior Smart Contract Developer"
-      }, {
-        src: require('@/assets/imgs/img_tx_10@2x.png'),
-        name: "Natalie Foster",
-        content: "Community Manager"
       }],
       RoadmapList: [{
         name: "Phase 1",

@@ -526,9 +526,9 @@ export default {
         content: "Chief Executive Officer (CEO)",
         fadeInLeft: true,
       }, {
-        src: require('@/assets/imgs/img_tx_10@2x.png'),
-        name: "Natalie Foster",
-        content: "Community Manager",
+        src: require('@/assets/imgs/img_tx_2@2x.png'),
+        name: "Lucas Cullen",
+        content: "Chief Technology Officer (CTO)",
         fadeInRight: true,
       }],
       RoadmapList: [{
