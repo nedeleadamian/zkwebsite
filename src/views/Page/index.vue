@@ -499,11 +499,11 @@ export default {
       TeamList: [{
         src: require('@/assets/imgs/img_tx_1@2x.png'),
         name: "Dave",
-        content: "Founder",
+        content: "Co Founder",
         fadeInLeft: true,
       }, {
         src: require('@/assets/imgs/img_tx_2@2x.png'),
-        name: "Lucas Cullen",
+        name: "Lucas",
         content: "Chief Technology Officer (CTO)",
         fadeInRight: true,
       }],
