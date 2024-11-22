@@ -430,22 +430,40 @@ export default {
       }],
       TeamList: [{
         src: require('@/assets/imgs/img_tx_1@2x.png'),
-        name: "Dave",
+        name: "Dave Sandor",
         content: "Co Founder"
       }, {
         src: require('@/assets/imgs/img_tx_2@2x.png'),
-        name: "Lucas",
+        name: "Lucas Cullen",
         content: "Chief Technology Officer (CTO)"
       }, {
         src: require('@/assets/imgs/img_tx_3@2x.png'),
-        name: "Jen",
+        name: "Jenna Wayne",
         content: "Founder",
         fadeInRight: true,
       },
       {
         src: require('@/assets/imgs/img_tx_4@2x.png'),
-        name: "John",
-        content: "",
+        name: "John Newham",
+        content: "Social Media Lead",
+        fadeInRight: true,
+      },
+      {
+        src: require('@/assets/imgs/img_tx_5@2x.png'),
+        name: "Neil Dundon",
+        content: "Strategic Advisor",
+        fadeInRight: true,
+      },
+      {
+        src: require('@/assets/imgs/img_tx_6@2x.png'),
+        name: "Victor Hsu",
+        content: "Software Engineer",
+        fadeInRight: true,
+      },
+      {
+        src: require('@/assets/imgs/img_tx_7@2x.png'),
+        name: "Sam Annavi",
+        content: "Blockchain Lead",
         fadeInRight: true,
       }
       ],
