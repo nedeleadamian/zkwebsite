@@ -308,9 +308,7 @@
           Team
         </div>
         <div class="intro wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="3000ms">
-          Meet the people behind OpenZK Network, a group of blockchain innovators, engineers, and visionaries committed
-          to creating the future of Layer 2 solutions. Our team brings together diverse expertise in cryptography,
-          decentralized finance, and real-world asset integration to drive the growth of OpenZK.
+          Bringing together world-class engineers, blockchain architects, and product specialists with deep expertise in Layer 2 scaling solutions and DeFi protocols, the OpenZK Network team is united by its passion for innovation and is committed to building the infrastructure that will power the next generation of decentralized applications.
         </div>
         <div class="itemList">
           <div v-for="(item, index) in TeamList" :key="index"
