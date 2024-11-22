@@ -37,7 +37,7 @@
               </div>
             </div>
             <div class="intro" style="margin-left: 10px;">
-              Testnet available now.</br>Airdrop points and Multipliers for early participants upon Mainnet launch
+              Testnet available now.</br>Airdrop points and Multipliers coming soon.
             </div>
           </div>
           <div class="two">
