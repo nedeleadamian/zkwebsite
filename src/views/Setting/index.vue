@@ -29,14 +29,6 @@
               <div class="btnBg" />
               <div class="btnCon">
                 <img class="arrow" src="@/assets/imgs/bg.png" alt="">
-                <!-- <img
-                                    class="text"
-                                    src="@/assets/imgs/BridgeEarn@2x.png"
-                                    alt="">
-                                <img
-                                    class="arrow"
-                                    src="@/assets/imgs/icon_anjt@2x(1).png"
-                                    alt=""> -->
               </div>
             </div>
             <div class="intro">

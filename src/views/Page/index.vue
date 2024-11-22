@@ -30,29 +30,10 @@
         </div>
         <div class="right wow fadeIn" data-wow-delay="600ms" data-wow-duration="3000ms">
           <div class="one">
-            <!-- <div class="radial-ring-container">
-                          <div class="radial-ring-wrapper">
-                            <div class="radial-ring-color"></div>
-                            <div class="radial-ring-button gradient-text ">Bridge & Earn <img
-                                    class="arrow"
-                                    src="@/assets/imgs/icon_anjt@2x(1).png"
-                                    style="width: 22px; margin-left: 10px;"
-                                    alt=""></div>
-                          </div>
-                        </div> -->
             <div class="btn">
               <div class="btnBg" />
               <div class="btnCon">
-                <!-- <span>Bridge & Earn </span> -->
-                <!-- <img
-                                    class="text"
-                                    src="@/assets/imgs/BridgeEarn@2x.png"
-                                    alt=""> -->
                 <img class="arrow" src="@/assets/imgs/bg.png" alt="">
-                <!-- <img
-                                    class="arrowTwo"
-                                    src="@/assets/imgs/8.png"
-                                    alt=""> -->
               </div>
             </div>
             <div class="intro" style="margin-left: 10px;">
@@ -185,10 +166,7 @@
           </div>
         </div>
         <div class="intro  wow fadeIn" data-wow-delay="200ms" data-wow-duration="1000ms">
-          Earn <span>10</span>x Airdrop Point Multiplier for Early Participants
-        </div>
-        <div class="detail wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
-          Bridge ETH and stablecoins to OpenZK Network from Ethereum now and automatically benefit from ETH mainnet staking and restaking, stablecoin rewards and Airdrop Points
+          <span>10</span>x Airdrop Point Multiplier for Early Participants
         </div>
       </div>
     </div>
