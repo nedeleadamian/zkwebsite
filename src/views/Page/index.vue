@@ -188,7 +188,7 @@
           Earn <span>10</span>x Airdrop Point Multiplier for Early Participants
         </div>
         <div class="detail wow fadeIn" data-wow-delay="200ms" data-wow-duration="3000ms">
-          Bridge ETH and [LIST STABLECOINS] to OpenZK Network from Ethereum now and automatically benefit from ETH mainnet staking and restaking, stablecoin rewards and Airdrop Points
+          Bridge ETH and stablecoins to OpenZK Network from Ethereum now and automatically benefit from ETH mainnet staking and restaking, stablecoin rewards and Airdrop Points
         </div>
       </div>
     </div>
