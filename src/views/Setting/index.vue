@@ -371,7 +371,6 @@
 <script>
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import NavBar from '@/components/NavBar/mobileNav.vue'
-import marqueeLeft from "./scroll.vue";
 import star from "../Page/star.vue";
 let timer = null;
 export default {
