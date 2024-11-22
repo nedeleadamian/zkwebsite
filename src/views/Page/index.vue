@@ -522,8 +522,8 @@ export default {
       }],
       TeamList: [{
         src: require('@/assets/imgs/img_tx_1@2x.png'),
-        name: "John Anderson",
-        content: "Chief Executive Officer (CEO)",
+        name: "Dave",
+        content: "Founder",
         fadeInLeft: true,
       }, {
         src: require('@/assets/imgs/img_tx_2@2x.png'),
