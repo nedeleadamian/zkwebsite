@@ -171,7 +171,10 @@
           Team
         </div>
         <div class="intro">
-          Bringing together world-class engineers, blockchain architects, and product specialists with deep expertise in Layer 2 scaling solutions and DeFi protocols, the OpenZK Network team is united by its passion for innovation and is committed to building the infrastructure that will power the next generation of decentralized applications.
+          Bringing together world-class engineers, blockchain architects, and product specialists with deep expertise in
+          Layer 2 scaling solutions and DeFi protocols, the OpenZK Network team is united by its passion for innovation
+          and is committed to building the infrastructure that will power the next generation of decentralized
+          applications.
         </div>
         <swiper ref="myRoadSwiper" class="swiperOptions swiper-container itemList" :options="swiperTeamOptions">
           <swiper-slide v-for="(item, index) in TeamList" :key="index" class="item swiperSlide">
@@ -433,7 +436,19 @@ export default {
         src: require('@/assets/imgs/img_tx_2@2x.png'),
         name: "Lucas",
         content: "Chief Technology Officer (CTO)"
-      }],
+      }, {
+        src: require('@/assets/imgs/img_tx_3@2x.png'),
+        name: "Jen",
+        content: "Founder",
+        fadeInRight: true,
+      },
+      {
+        src: require('@/assets/imgs/img_tx_4@2x.png'),
+        name: "John",
+        content: "",
+        fadeInRight: true,
+      }
+      ],
       RoadmapList: [{
         name: "Phase 1",
         content: "Core Infrastructure Development",
