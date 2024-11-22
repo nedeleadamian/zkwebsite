@@ -87,7 +87,7 @@
             </div>
           </div>
         </div>
-        <div class="aboutBottom">
+        <!-- <div class="aboutBottom">
           Fast and Low-Cost Transactions
           <div class="btn" @click="handlePdfRoute">
             <div class="btnBg" />
@@ -95,7 +95,7 @@
               Check Whitepaper <img src="@/assets/imgs/icon_anjt.png" alt=""></span>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div id="Features" class="Features  wow fadeInUp " data-wow-delay="200ms" data-wow-duration="2000ms">
@@ -465,8 +465,7 @@ export default {
         name: "Sam Annavi",
         content: "Blockchain Lead",
         fadeInRight: true,
-      }
-      ],
+      }],
       RoadmapList: [{
         name: "Phase 1",
         content: "Core Infrastructure Development",

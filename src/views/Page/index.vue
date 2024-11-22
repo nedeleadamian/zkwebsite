@@ -191,94 +191,6 @@
             </div>
           </div>
         </div>
-
-        <div class="aboutBottom  wow zoomInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
-          Fast and Low-Cost Transactions
-          <div class="btn" @click="handlePdfRoute">
-            <div class="btnBg" />
-            <div class="btnCon">
-              Check Whitepaper <img src="@/assets/imgs/icon_anjt.png" alt=""></span>
-            </div>
-            <div class="star-1">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
-                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <g id="Layer_x0020_1">
-                  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                  <path
-                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    class="fil0"></path>
-                </g>
-              </svg>
-            </div>
-            <div class="star-2">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
-                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <g id="Layer_x0020_1">
-                  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                  <path
-                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    class="fil0"></path>
-                </g>
-              </svg>
-            </div>
-            <div class="star-3">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
-                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <g id="Layer_x0020_1">
-                  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                  <path
-                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    class="fil0"></path>
-                </g>
-              </svg>
-            </div>
-            <div class="star-4">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
-                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <g id="Layer_x0020_1">
-                  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                  <path
-                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    class="fil0"></path>
-                </g>
-              </svg>
-            </div>
-            <div class="star-5">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
-                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <g id="Layer_x0020_1">
-                  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                  <path
-                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    class="fil0"></path>
-                </g>
-              </svg>
-            </div>
-            <div class="star-6">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
-                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <g id="Layer_x0020_1">
-                  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                  <path
-                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    class="fil0"></path>
-                </g>
-              </svg>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <div id="Tools" class="Tools">
@@ -499,29 +411,45 @@ export default {
         name: "Smart Contract Compilation & Debugging",
         content: "With our debugging tools, developers can efficiently compile, debug, and test their smart contracts to optimize dApp performance and enhance user experience."
       }],
-      TeamList: [{
-        src: require('@/assets/imgs/img_tx_1@2x.png'),
-        name: "Dave",
-        content: "Co Founder",
-        fadeInLeft: true,
-      }, {
-        src: require('@/assets/imgs/img_tx_2@2x.png'),
-        name: "Lucas",
-        content: "Chief Technology Officer (CTO)",
-        fadeInRight: true,
-      },
-      {
-        src: require('@/assets/imgs/img_tx_3@2x.png'),
-        name: "Jen",
-        content: "Founder",
-        fadeInRight: true,
-      },
-      {
-        src: require('@/assets/imgs/img_tx_4@2x.png'),
-        name: "John",
-        content: "",
-        fadeInRight: true,
-      }
+      TeamList: [
+        {
+          src: require('@/assets/imgs/img_tx_1@2x.png'),
+          name: "Dave Sandor",
+          content: "Co Founder"
+        }, {
+          src: require('@/assets/imgs/img_tx_2@2x.png'),
+          name: "Lucas Cullen",
+          content: "Chief Technology Officer (CTO)"
+        }, {
+          src: require('@/assets/imgs/img_tx_3@2x.png'),
+          name: "Jenna Wayne",
+          content: "Founder",
+          fadeInRight: true,
+        },
+        {
+          src: require('@/assets/imgs/img_tx_4@2x.png'),
+          name: "John Newham",
+          content: "Social Media Lead",
+          fadeInRight: true,
+        },
+        {
+          src: require('@/assets/imgs/img_tx_5@2x.png'),
+          name: "Neil Dundon",
+          content: "Strategic Advisor",
+          fadeInRight: true,
+        },
+        {
+          src: require('@/assets/imgs/img_tx_6@2x.png'),
+          name: "Victor Hsu",
+          content: "Software Engineer",
+          fadeInRight: true,
+        },
+        {
+          src: require('@/assets/imgs/img_tx_7@2x.png'),
+          name: "Sam Annavi",
+          content: "Blockchain Lead",
+          fadeInRight: true,
+        }
       ],
       RoadmapList: [{
         name: "Phase 1",
