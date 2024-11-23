@@ -427,7 +427,8 @@ export default {
         name: "Smart Contract Compilation & Debugging",
         content: "With our debugging tools, developers can efficiently compile, debug, and test their smart contracts to optimize dApp performance and enhance user experience."
       }],
-      TeamList: [{
+      TeamList: [
+      {
         src: require('@/assets/imgs/img_tx_1@2x.png'),
         name: "Dave Sandor",
         content: "Co Founder"
@@ -438,7 +439,13 @@ export default {
       }, {
         src: require('@/assets/imgs/img_tx_3@2x.png'),
         name: "Jenna Wayne",
-        content: "Founder",
+        content: "Chief Marketing Officer",
+        fadeInRight: true,
+      },
+      {
+        src: require('@/assets/imgs/img_tx_7@2x.png'),
+        name: "Sam Annavi",
+        content: "Blockchain Lead",
         fadeInRight: true,
       },
       {
@@ -459,12 +466,7 @@ export default {
         content: "Software Engineer",
         fadeInRight: true,
       },
-      {
-        src: require('@/assets/imgs/img_tx_7@2x.png'),
-        name: "Sam Annavi",
-        content: "Blockchain Lead",
-        fadeInRight: true,
-      }],
+      ],
       RoadmapList: [{
         name: "Phase 1",
         content: "Core Infrastructure Development",

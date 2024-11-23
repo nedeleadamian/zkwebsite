@@ -33,7 +33,7 @@
             <div class="btn">
               <div class="btnBg" />
               <div class="btnCon">
-                <a href="https://openzkbeta.click/" target=_blank rel="noopener noreferrer" >
+                <a href="https://openzkbeta.click/" target=_blank rel="noopener noreferrer">
                   <img class="arrow" src="@/assets/imgs/bg.png" alt="">
                 </a>
               </div>
@@ -82,12 +82,12 @@
             </div>
           </div>
         </div>
-        <a href="https://openzkbeta.click/" target=_blank rel="noopener noreferrer" >
+        <a href="https://openzkbeta.click/" target=_blank rel="noopener noreferrer">
           <div class="btn  wow zoomInUp" data-wow-delay="200ms" data-wow-duration="3000ms">
             <div class="btnBg" />
             <div class="btnCon">
 
-                <img class="text" src="@/assets/imgs/StakeNow@2x.png" alt="">
+              <img class="text" src="@/assets/imgs/StakeNow@2x.png" alt="">
             </div>
             <div class="star-1">
               <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
@@ -355,7 +355,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
-import NavBar from '@/components/NavBar'
+import NavBar from "@/components/NavBar";
 // import marqueeLeft from "./scroll.vue";
 // import imgScroll from "./imgScroll.vue";
 import star from "./star.vue";
@@ -367,205 +367,266 @@ export default {
     SwiperSlide,
     // marqueeLeft,
     // imgScroll,
-    star
+    star,
   },
   data() {
     return {
       currentIntro: 1,
-      AboutList: [{
-        src: require('@/assets/imgs/icon_drivi_1@2x.png'),
-        name: "Driving Change",
-        content: "OpenZK Network's rollup solution addresses the core challenges of blockchain technology – scalability, cost efficiency, and security.  By combining ZK rollup technology with native ETH staking, liquid restaking and stablecoin staking rewards, OpenZK Network aims to enhance user benefits and accelerate L2 adoption."
-      }, {
-        src: require('@/assets/imgs/icon_future_2@2x.png'),
-        name: "Future Blueprint",
-        content: "OpenZK Network is committed to building a scalable, efficient Layer 2 network using zero-knowledge proof technology, to offer unmatched opportunity for DeFi, RWA and high-frequency trading applications."
-      }, {
-        src: require('@/assets/imgs/icon_pione_3@2x.png'),
-        name: "Pioneering Technological  Innovation",
-        content: "OpenZK Network is an advanced layer 2 solution built on ZK rollup technology. We offer developers a powerful Ethereum-compatible development platform. With our integrated cross-chain bridge and native staking mechanisms, Open ZK Network delivers exceptional scalability and flexibility."
-      }],
-      FeaturesOneList: [{
-        name: "Native ETH Staking Reward",
-        content: "With OpenZK Network's Layer 2 solution, users' bridged ETH is staked and restaked on the Ethereum mainnet automatically. Unlike other layer 2 solutions, OpenZK's integration of native staking and restaking provides users with a seamless experience, delivering a high performance, low cost and rewarding layer 2 network.<p>· Competitive Staking Rewards: Bridged ETH automatically earn native staking rewards from the Ethereum mainnet, plus additional restaking rewards.</p><p>· Low Cost Network + Rewards: Low transaction fees resulting from layer 2 technology, while maximizing staking and restaking rewards for assets bridged to the network.</p><p>· Secure: ZK rollup technology maintains the efficiency and security of transactions, supported by the Ethereum mainnet..</p>"
-      }, {
-        name: "ETH Restaking and Stablecoin Staking",
-        content: "Open ZK combines additional liquid staking opportunities with native ETH staking to maximise earning potential while supporting decentralization and the security of the Ethereum ecosystem.</p><p>Open ZK also integrates multidimensional stablecoin staking options from Defi and RWA protocols, allowing users to stake stablecoins via OpenZK and benefit from staking rewards while maintaining liquidity.</p><p>· Beyond Staking: OpenZK's native ETH staking solutions integrate both staking and restaking in a single click.</p><p>· Maximise Earning Potential: Enjoy the benefits of both staking/restaking rewards and the flexibility afforded by Defi and RWA protocols.</p><p>· Diverse Opportunities and Liquidity: Unlock the potential of staked ETH or stablecoin for even greater utility, liquidity and rewards.</p>"
-      }],
-      FeaturesTwoList: [{
-        name: "Cross-chain</br>Interoperability",
-        content: "Our native cross-chain bridge enables seamless asset and data transfers between multiple blockchains, enhancing collaboration and functionality across ecosystems. OpenZK breaks the barriers of isolated blockchains, supporting more cross-chain financial applications."
-      }, {
-        name: "Security Model",
-        content: "OpenZK's rollup solution uses zk-SNARKs to prove the validity of each batch of transactions. This prevents the possibility of fraud by ensuring that all transaction to verified before being finalized on Ethereum."
-      }, {
-        name: "Tokenomics",
-        content: "OZK is the native token for the OpenZK Network, playing a crucial role in aligning incentives within the ecosystem. It is anticipated that OZK will follow a deflationary model and serve multiple purposes including utility in governance rights, staking incentives, and potential network fee mechanisms."
-      }],
-      ToolsList: [{
-        src: require('@/assets/imgs/icon_tools_1@2x.png'),
-        name: "Robust Development Environment",
-        content: "OpenZK Network offers a fully Ethereum-compatible Layer 2 development environment. Developers can easily migrate and deploy smart contracts, using our comprehensive toolkit to accelerate the development and iteration of decentralized applications (dApps)."
-      }, {
-        src: require('@/assets/imgs/icon_tools_2@2x.png'),
-        name: "Testnet & Mainnet Support",
-        content: "We provide a complete testnet and mainnet environment, allowing developers to build and validate their smart contracts in a test environment before seamlessly deploying them to the mainnet."
-      }, {
-        src: require('@/assets/imgs/icon_tools_3@2x.png'),
-        name: "Smart Contract Compilation & Debugging",
-        content: "With our debugging tools, developers can efficiently compile, debug, and test their smart contracts to optimize dApp performance and enhance user experience."
-      }],
+      AboutList: [
+        {
+          src: require("@/assets/imgs/icon_drivi_1@2x.png"),
+          name: "Driving Change",
+          content:
+            "OpenZK Network's rollup solution addresses the core challenges of blockchain technology – scalability, cost efficiency, and security.  By combining ZK rollup technology with native ETH staking, liquid restaking and stablecoin staking rewards, OpenZK Network aims to enhance user benefits and accelerate L2 adoption.",
+        },
+        {
+          src: require("@/assets/imgs/icon_future_2@2x.png"),
+          name: "Future Blueprint",
+          content:
+            "OpenZK Network is committed to building a scalable, efficient Layer 2 network using zero-knowledge proof technology, to offer unmatched opportunity for DeFi, RWA and high-frequency trading applications.",
+        },
+        {
+          src: require("@/assets/imgs/icon_pione_3@2x.png"),
+          name: "Pioneering Technological  Innovation",
+          content:
+            "OpenZK Network is an advanced layer 2 solution built on ZK rollup technology. We offer developers a powerful Ethereum-compatible development platform. With our integrated cross-chain bridge and native staking mechanisms, Open ZK Network delivers exceptional scalability and flexibility.",
+        },
+      ],
+      FeaturesOneList: [
+        {
+          name: "Native ETH Staking Reward",
+          content:
+            "With OpenZK Network's Layer 2 solution, users' bridged ETH is staked and restaked on the Ethereum mainnet automatically. Unlike other layer 2 solutions, OpenZK's integration of native staking and restaking provides users with a seamless experience, delivering a high performance, low cost and rewarding layer 2 network.<p>· Competitive Staking Rewards: Bridged ETH automatically earn native staking rewards from the Ethereum mainnet, plus additional restaking rewards.</p><p>· Low Cost Network + Rewards: Low transaction fees resulting from layer 2 technology, while maximizing staking and restaking rewards for assets bridged to the network.</p><p>· Secure: ZK rollup technology maintains the efficiency and security of transactions, supported by the Ethereum mainnet..</p>",
+        },
+        {
+          name: "ETH Restaking and Stablecoin Staking",
+          content:
+            "Open ZK combines additional liquid staking opportunities with native ETH staking to maximise earning potential while supporting decentralization and the security of the Ethereum ecosystem.</p><p>Open ZK also integrates multidimensional stablecoin staking options from Defi and RWA protocols, allowing users to stake stablecoins via OpenZK and benefit from staking rewards while maintaining liquidity.</p><p>· Beyond Staking: OpenZK's native ETH staking solutions integrate both staking and restaking in a single click.</p><p>· Maximise Earning Potential: Enjoy the benefits of both staking/restaking rewards and the flexibility afforded by Defi and RWA protocols.</p><p>· Diverse Opportunities and Liquidity: Unlock the potential of staked ETH or stablecoin for even greater utility, liquidity and rewards.</p>",
+        },
+      ],
+      FeaturesTwoList: [
+        {
+          name: "Cross-chain</br>Interoperability",
+          content:
+            "Our native cross-chain bridge enables seamless asset and data transfers between multiple blockchains, enhancing collaboration and functionality across ecosystems. OpenZK breaks the barriers of isolated blockchains, supporting more cross-chain financial applications.",
+        },
+        {
+          name: "Security Model",
+          content:
+            "OpenZK's rollup solution uses zk-SNARKs to prove the validity of each batch of transactions. This prevents the possibility of fraud by ensuring that all transaction to verified before being finalized on Ethereum.",
+        },
+        {
+          name: "Tokenomics",
+          content:
+            "OZK is the native token for the OpenZK Network, playing a crucial role in aligning incentives within the ecosystem. It is anticipated that OZK will follow a deflationary model and serve multiple purposes including utility in governance rights, staking incentives, and potential network fee mechanisms.",
+        },
+      ],
+      ToolsList: [
+        {
+          src: require("@/assets/imgs/icon_tools_1@2x.png"),
+          name: "Robust Development Environment",
+          content:
+            "OpenZK Network offers a fully Ethereum-compatible Layer 2 development environment. Developers can easily migrate and deploy smart contracts, using our comprehensive toolkit to accelerate the development and iteration of decentralized applications (dApps).",
+        },
+        {
+          src: require("@/assets/imgs/icon_tools_2@2x.png"),
+          name: "Testnet & Mainnet Support",
+          content:
+            "We provide a complete testnet and mainnet environment, allowing developers to build and validate their smart contracts in a test environment before seamlessly deploying them to the mainnet.",
+        },
+        {
+          src: require("@/assets/imgs/icon_tools_3@2x.png"),
+          name: "Smart Contract Compilation & Debugging",
+          content:
+            "With our debugging tools, developers can efficiently compile, debug, and test their smart contracts to optimize dApp performance and enhance user experience.",
+        },
+      ],
       TeamList: [
         {
-          src: require('@/assets/imgs/img_tx_1@2x.png'),
+          src: require("@/assets/imgs/img_tx_1@2x.png"),
           name: "Dave Sandor",
-          content: "Co Founder"
-        }, {
-          src: require('@/assets/imgs/img_tx_2@2x.png'),
+          content: "Co Founder",
+        },
+        {
+          src: require("@/assets/imgs/img_tx_2@2x.png"),
           name: "Lucas Cullen",
-          content: "Chief Technology Officer (CTO)"
-        }, {
-          src: require('@/assets/imgs/img_tx_3@2x.png'),
+          content: "Chief Technology Officer (CTO)",
+        },
+        {
+          src: require("@/assets/imgs/img_tx_3@2x.png"),
           name: "Jenna Wayne",
-          content: "Founder",
+          content: "Chief Marketing Officer",
           fadeInRight: true,
         },
         {
-          src: require('@/assets/imgs/img_tx_4@2x.png'),
+          src: require("@/assets/imgs/img_tx_7@2x.png"),
+          name: "Sam Annavi",
+          content: "Blockchain Lead",
+          fadeInRight: true,
+        },
+        {
+          src: require("@/assets/imgs/img_tx_4@2x.png"),
           name: "John Newham",
           content: "Social Media Lead",
           fadeInRight: true,
         },
         {
-          src: require('@/assets/imgs/img_tx_5@2x.png'),
+          src: require("@/assets/imgs/img_tx_5@2x.png"),
           name: "Neil Dundon",
           content: "Strategic Advisor",
           fadeInRight: true,
         },
         {
-          src: require('@/assets/imgs/img_tx_6@2x.png'),
+          src: require("@/assets/imgs/img_tx_6@2x.png"),
           name: "Victor Hsu",
           content: "Software Engineer",
           fadeInRight: true,
         },
-        {
-          src: require('@/assets/imgs/img_tx_7@2x.png'),
-          name: "Sam Annavi",
-          content: "Blockchain Lead",
-          fadeInRight: true,
-        }
       ],
-      RoadmapList: [{
-        name: "Phase 1",
-        content: "Core Infrastructure Development",
-        intro: "<p>· Implementation of ZK Rollup scalability features</p><p>· Launch of the testnet environment for developers</p><p>· Launch of developer tools for seamless dApp migration</p>"
-
-      }, {
-        name: "Phase 2",
-        content: "Ecosystem Expansion",
-        intro: "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Integration of account abstraction and advanced smart contract capabilities</p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Token staking and reward mechanisms</p><p>· Establishing the deflationary tokenomics model for OZK</p>"
-      }, {
-        name: "Phase 3",
-        content: "Full Decentralization & Governance",
-        intro:
-          "<p>· Transition to a decentralized governance model, allowing OZK stakers to vote on network upgrades and decisions</p><p>· Expansion of cross-chain interoperability</p><p>· Further optimization of transaction throughput and network scalability through continued technological upgrades</p>"
-      }],
-      CommunityList: [{
-        name: "Join the OpenZK Community",
-        content: "Become part of our global community and help shape the future of the OpenZK Network. Collaborate with developers, users, and investors to build a decentralized blockchain ecosystem."
-      }, {
-        name: "News & Updates",
-        content: "Stay informed with the latest updates on OpenZK Network, including technological advancements, network growth, partnerships, and community events. Keep up with the project's progress and explore what's next."
-      }],
-      FAQList: [{
-        show: false,
-        name: "What is a ZK Rollup?",
-        content: "A ZK rollup is a layer 2 scaling solution where multiple transactions are bundled together off chain, these transactions are processed and “rolled up” into a single piece of data, a cryptographic proof called a ZK proof is generated to verify all transactions are valid. Only this proof and the compressed transaction data posted to the Ethereum mainnet."
-      }, {
-        show: false,
-        name: "Why choose OpenZK Network?",
-        content: "OpenZK Network utilises cutting edge zero-knowledge proof technology to solve Ethereum's scalability challenges. Users benefit from faster, cheaper transactions and the rewards generated from the automatic staking/restaking of bridged assets (ETH/stablecoins) to the network."
-      }, {
-        show: false,
-        name: "How do I stake and earn rewards?",
-        content: "Users are able to connect their wallet and bridge assets like ETH and stablecoins (USDT / USDC) to the OpenZK Network with a single click through our native bridge. After bridging, staking and restaking of ETH takes place automatically (through Rocket Pool and Ether.fi initially) as does the staking of stablecoins (through Spark.fi). In both cases the ETH and stablecoin that have been bridged and staked by the user will be represented on the OpenZK Network by liquid tokens, ozkETH and ozkUSD respectively."
-      }, {
-        show: false,
-        name: "What is the OpenZK Network tokenomics model?",
-        content: "OZK will be the native token of the OpenZK Network. It is expected that OZK will have utility in governance rights, payment for gas fees and staking. It is likely OZK will follow a deflationary model, with a portion of OZK used in payment of gas fees being burned and scarcity increasing over time."
-      }, {
-        show: false,
-        name: "How can developers start using OpenZK?",
-        content: "Developers can access our developer portal, where they will find a full suite of tools, a testnet environment, and smart contract debugging tools. Developers can start by migrating their Ethereum-based contracts and using OpenZK's Layer 2 features to optimize and deploy their decentralized applications."
-      }, {
-        show: false,
-        name: "Is OpenZK compatible with Ethereum?",
-        content: "Yes, OpenZK is fully compatible with Ethereum. This means developers can seamlessly migrate their existing Ethereum smart contracts to the OpenZK Network without needing to rewrite code. Additionally, users can enjoy lower transaction fees and faster speeds while still benefiting from Ethereum's security."
-      }],
+      RoadmapList: [
+        {
+          name: "Phase 1",
+          content: "Core Infrastructure Development",
+          intro:
+            "<p>· Implementation of ZK Rollup scalability features</p><p>· Launch of the testnet environment for developers</p><p>· Launch of developer tools for seamless dApp migration</p>",
+        },
+        {
+          name: "Phase 2",
+          content: "Ecosystem Expansion",
+          intro:
+            "<p>· Deployment of the mainnet with full cross-chain bridge functionality </p><p>· Integration of account abstraction and advanced smart contract capabilities</p><p>· Strategic partnerships with other blockchain ecosystems and DeFi projects</p><p>· Token staking and reward mechanisms</p><p>· Establishing the deflationary tokenomics model for OZK</p>",
+        },
+        {
+          name: "Phase 3",
+          content: "Full Decentralization & Governance",
+          intro:
+            "<p>· Transition to a decentralized governance model, allowing OZK stakers to vote on network upgrades and decisions</p><p>· Expansion of cross-chain interoperability</p><p>· Further optimization of transaction throughput and network scalability through continued technological upgrades</p>",
+        },
+      ],
+      CommunityList: [
+        {
+          name: "Join the OpenZK Community",
+          content:
+            "Become part of our global community and help shape the future of the OpenZK Network. Collaborate with developers, users, and investors to build a decentralized blockchain ecosystem.",
+        },
+        {
+          name: "News & Updates",
+          content:
+            "Stay informed with the latest updates on OpenZK Network, including technological advancements, network growth, partnerships, and community events. Keep up with the project's progress and explore what's next.",
+        },
+      ],
+      FAQList: [
+        {
+          show: false,
+          name: "What is a ZK Rollup?",
+          content:
+            "A ZK rollup is a layer 2 scaling solution where multiple transactions are bundled together off chain, these transactions are processed and “rolled up” into a single piece of data, a cryptographic proof called a ZK proof is generated to verify all transactions are valid. Only this proof and the compressed transaction data posted to the Ethereum mainnet.",
+        },
+        {
+          show: false,
+          name: "Why choose OpenZK Network?",
+          content:
+            "OpenZK Network utilises cutting edge zero-knowledge proof technology to solve Ethereum's scalability challenges. Users benefit from faster, cheaper transactions and the rewards generated from the automatic staking/restaking of bridged assets (ETH/stablecoins) to the network.",
+        },
+        {
+          show: false,
+          name: "How do I stake and earn rewards?",
+          content:
+            "Users are able to connect their wallet and bridge assets like ETH and stablecoins (USDT / USDC) to the OpenZK Network with a single click through our native bridge. After bridging, staking and restaking of ETH takes place automatically (through Rocket Pool and Ether.fi initially) as does the staking of stablecoins (through Spark.fi). In both cases the ETH and stablecoin that have been bridged and staked by the user will be represented on the OpenZK Network by liquid tokens, ozkETH and ozkUSD respectively.",
+        },
+        {
+          show: false,
+          name: "What is the OpenZK Network tokenomics model?",
+          content:
+            "OZK will be the native token of the OpenZK Network. It is expected that OZK will have utility in governance rights, payment for gas fees and staking. It is likely OZK will follow a deflationary model, with a portion of OZK used in payment of gas fees being burned and scarcity increasing over time.",
+        },
+        {
+          show: false,
+          name: "How can developers start using OpenZK?",
+          content:
+            "Developers can access our developer portal, where they will find a full suite of tools, a testnet environment, and smart contract debugging tools. Developers can start by migrating their Ethereum-based contracts and using OpenZK's Layer 2 features to optimize and deploy their decentralized applications.",
+        },
+        {
+          show: false,
+          name: "Is OpenZK compatible with Ethereum?",
+          content:
+            "Yes, OpenZK is fully compatible with Ethereum. This means developers can seamlessly migrate their existing Ethereum smart contracts to the OpenZK Network without needing to rewrite code. Additionally, users can enjoy lower transaction fees and faster speeds while still benefiting from Ethereum's security.",
+        },
+      ],
       status: 0,
       scrollTop: 0,
       implement: 0,
       strategy: 0,
       videoStatus: false,
       top: -581,
-      bars: [{
-        path: '#Home',
-        cn: 'Home',
-        en: 'Home',
-      }, {
-        path: '#About',
-        cn: 'About',
-        en: 'About',
-      }, {
-        path: '#Features',
-        cn: 'Features',
-        en: 'Features',
-      }, {
-        path: '#Features',
-        cn: 'Features',
-        en: 'Features',
-      }, {
-        path: '#Tools',
-        cn: 'Tools',
-        en: 'Tools',
-      }, {
-        path: '#Team',
-        cn: 'Team',
-        en: 'Team',
-      }, {
-        path: '#FAQ',
-        cn: 'FAQ',
-        en: 'FAQ',
-      }, {
-        path: '#Roadmap',
-        cn: 'Roadmap',
-        en: 'Roadmap',
-      }],
+      bars: [
+        {
+          path: "#Home",
+          cn: "Home",
+          en: "Home",
+        },
+        {
+          path: "#About",
+          cn: "About",
+          en: "About",
+        },
+        {
+          path: "#Features",
+          cn: "Features",
+          en: "Features",
+        },
+        {
+          path: "#Features",
+          cn: "Features",
+          en: "Features",
+        },
+        {
+          path: "#Tools",
+          cn: "Tools",
+          en: "Tools",
+        },
+        {
+          path: "#Team",
+          cn: "Team",
+          en: "Team",
+        },
+        {
+          path: "#FAQ",
+          cn: "FAQ",
+          en: "FAQ",
+        },
+        {
+          path: "#Roadmap",
+          cn: "Roadmap",
+          en: "Roadmap",
+        },
+      ],
       swiperOption: {
         // 所有的参数同 swiper 官方 api 参数
-        slidesPerView: 'auto', //设置slider容器能够同时显示的slides数量
+        slidesPerView: "auto", //设置slider容器能够同时显示的slides数量
         loop: true,
-        autoplay: true
+        autoplay: true,
       },
       swiperTagsOptions: {
         // 所有的参数同 swiper 官方 api 参数
-        direction: 'horizontal',
-        slidesPerView: 'auto', //设置slider容器能够同时显示的slides数量
+        direction: "horizontal",
+        slidesPerView: "auto", //设置slider容器能够同时显示的slides数量
         loop: true,
         autoplay: true,
         slidesPerView: 4,
       },
-
-    }
+    };
   },
   mounted() {
-    window.scrollTo(0, 0)
-    if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i))) {
-      console.info('mobile')
-      this.$router.push({ path: '/mobile' })
-
+    window.scrollTo(0, 0);
+    if (
+      navigator.userAgent.match(
+        /(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i
+      )
+    ) {
+      console.info("mobile");
+      this.$router.push({ path: "/mobile" });
     }
-
   },
   beforeDestroy() {
     clearInterval(timer);
@@ -577,14 +638,13 @@ export default {
     },
     handleImg(index) {
       this.currentIndex = index;
-      const img = document.getElementById('img')
-      const developCon = document.getElementById('developCon')
-      img.style.left = -(index * developCon.clientWidth) + 'px'
-
+      const img = document.getElementById("img");
+      const developCon = document.getElementById("developCon");
+      img.style.left = -(index * developCon.clientWidth) + "px";
     },
     handleImgBg() {
       const height = (561 * document.body.clientWidth) / 475;
-      var iSpeed = -1
+      var iSpeed = -1;
       timer = setInterval(() => {
         this.top = this.top + iSpeed;
         if (this.top < -height) {
@@ -606,16 +666,18 @@ export default {
       if (!this.videoStatus) {
         this.$refs.myVideo.play();
       }
-
     },
     handlePdfRoute() {
-      window.location.href = window.location.origin + window.location.pathname + "static/pdf/ZK-wp.pdf"
+      window.location.href =
+        window.location.origin +
+        window.location.pathname +
+        "static/pdf/ZK-wp.pdf";
     },
     handleToggleFaq(item) {
-      this.$set(item, "show", !item.show)
-    }
-  }
-}
+      this.$set(item, "show", !item.show);
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
 .page {
@@ -627,7 +689,6 @@ export default {
   right: 0;
   top: 343px;
   width: 519px;
-
 }
 
 .imgTwo {
@@ -635,7 +696,6 @@ export default {
   left: 0;
   top: 1148px;
   width: 519px;
-
 }
 
 .imgThree {
@@ -643,7 +703,6 @@ export default {
   right: 0;
   top: 2460px;
   width: 519px;
-
 }
 
 .imgFour {
@@ -651,13 +710,11 @@ export default {
   left: 0;
   top: 3403px;
   width: 519px;
-
 }
 
 .con {
   width: 1200px;
   margin: 0 auto;
-  ;
 }
 
 .title {
@@ -665,7 +722,7 @@ export default {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @keyframes rotation {
@@ -685,14 +742,14 @@ export default {
   }
 
   100% {
-    opacity: 1
-      /* 动画结束时，盒子透明度为0.3 */
+    opacity: 1;
+    /* 动画结束时，盒子透明度为0.3 */
   }
 }
 
 @keyframes gradient {
   to {
-    background-position: 200%
+    background-position: 200%;
   }
 }
 
@@ -718,7 +775,8 @@ export default {
     width: 628px;
     height: 503px;
     margin: 0 auto;
-    background: url("~@/assets/imgs/img_banner_bj@2x.png") no-repeat center center;
+    background: url("~@/assets/imgs/img_banner_bj@2x.png") no-repeat center
+      center;
     background-size: 100%;
     margin-top: -20px;
 
@@ -737,7 +795,7 @@ export default {
       font-family: Montserrat;
       font-weight: 800;
       font-size: 29px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 38px;
     }
 
@@ -745,11 +803,10 @@ export default {
       font-family: Montserrat;
       font-weight: 800;
       font-size: 42px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 49px;
       margin-top: 18px;
-      background: linear-gradient(0deg, #FFE381 0.4150390625%, #FA7D32 100%);
-
+      background: linear-gradient(0deg, #ffe381 0.4150390625%, #fa7d32 100%);
 
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -759,7 +816,7 @@ export default {
       font-family: Montserrat;
       font-weight: 800;
       font-size: 42px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 49px;
     }
 
@@ -767,7 +824,7 @@ export default {
       font-family: Montserrat;
       font-weight: 400;
       font-size: 16px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 24px;
       margin-top: 22px;
     }
@@ -781,7 +838,8 @@ export default {
       .btn {
         width: 268px;
         height: 84px;
-        background: url("~@/assets/imgs/img_bjgx@2x.png") no-repeat center center;
+        background: url("~@/assets/imgs/img_bjgx@2x.png") no-repeat center
+          center;
         background-size: 100%;
         margin: -18px 0 0 -20px;
         position: relative;
@@ -796,7 +854,17 @@ export default {
           background-size: 200% auto;
           z-index: 1;
           animation: gradient 3s linear infinite;
-          background-image: linear-gradient(90deg, #214e81, #506179, #ed5409, #ffcb67, #ffcb67, #ed5409, #506179, #214e81);
+          background-image: linear-gradient(
+            90deg,
+            #214e81,
+            #506179,
+            #ed5409,
+            #ffcb67,
+            #ffcb67,
+            #ed5409,
+            #506179,
+            #214e81
+          );
         }
 
         .btnCon {
@@ -825,10 +893,8 @@ export default {
           &:hover {
             .arrow {
               display: block;
-
             }
           }
-
         }
 
         // .btnCon::before {
@@ -857,7 +923,12 @@ export default {
           position: absolute;
           content: "";
           height: 100%;
-          background: linear-gradient(120deg, #f37c30 0%, #ffe582 50%, #f37c30 100%);
+          background: linear-gradient(
+            120deg,
+            #f37c30 0%,
+            #ffe582 50%,
+            #f37c30 100%
+          );
           width: 0;
           right: 0;
           top: 0;
@@ -891,18 +962,18 @@ export default {
         font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 20px;
 
         .first {
           font-family: Montserrat;
           font-size: 15px;
-          color: #F5B800;
+          color: #f5b800;
           line-height: 22px;
         }
 
         .second {
-          color: #F5B800;
+          color: #f5b800;
         }
       }
     }
@@ -918,10 +989,10 @@ export default {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 22px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 22px;
         border-radius: 21px;
-        border: 1px solid #F5B800;
+        border: 1px solid #f5b800;
         text-align: center;
         line-height: 41px;
         width: 234px;
@@ -943,7 +1014,7 @@ export default {
         }
 
         span {
-          color: #F5B800;
+          color: #f5b800;
         }
 
         &:hover .star-6 {
@@ -962,7 +1033,12 @@ export default {
         position: absolute;
         content: "";
         height: 100%;
-        background: linear-gradient(120deg, #f37c30 0%, #ffe582 50%, #f37c30 100%);
+        background: linear-gradient(
+          120deg,
+          #f37c30 0%,
+          #ffe582 50%,
+          #f37c30 100%
+        );
 
         width: 0;
         right: 0;
@@ -995,7 +1071,7 @@ export default {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 18px;
         text-align: center;
         width: 400px;
@@ -1004,11 +1080,10 @@ export default {
         span {
           font-family: Montserrat;
           font-size: 15px;
-          color: #F5B800;
+          color: #f5b800;
           line-height: 22px;
         }
       }
-
     }
   }
 }
@@ -1026,14 +1101,11 @@ export default {
       flex-direction: row;
       justify-content: space-between;
       padding: 0 35px;
-      ;
-
       img {
         display: block;
         height: 52px;
       }
     }
-
   }
 }
 
@@ -1055,7 +1127,8 @@ export default {
       cursor: pointer;
 
       &:hover {
-        background: linear-gradient(90deg, #070503, #31250E) no-repeat left center;
+        background: linear-gradient(90deg, #070503, #31250e) no-repeat left
+          center;
         animation: backgroundSize 0.8s;
       }
 
@@ -1072,8 +1145,8 @@ export default {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 22px;
-        color: #FFE683;
-        background: linear-gradient(0deg, #FFE381 0.4150390625%, #FA7D32 100%);
+        color: #ffe683;
+        background: linear-gradient(0deg, #ffe381 0.4150390625%, #fa7d32 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: -50px;
@@ -1086,7 +1159,7 @@ export default {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 21px;
         width: 323px;
         margin-top: 32px;
@@ -1113,7 +1186,17 @@ export default {
       background-size: 200% auto;
       z-index: 1;
       animation: gradient 3s linear infinite;
-      background-image: linear-gradient(90deg, #214e81, #506179, #ed5409, #ffcb67, #ffcb67, #ed5409, #506179, #214e81);
+      background-image: linear-gradient(
+        90deg,
+        #214e81,
+        #506179,
+        #ed5409,
+        #ffcb67,
+        #ffcb67,
+        #ed5409,
+        #506179,
+        #214e81
+      );
     }
 
     &.btn:hover .star-1 {
@@ -1227,7 +1310,7 @@ export default {
       filter: drop-shadow(0 0 0 #fffdef);
       fill: #fff;
       z-index: -5;
-      transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+      transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
     }
 
     .star-5 {
@@ -1239,7 +1322,7 @@ export default {
       filter: drop-shadow(0 0 0 #fffdef);
       fill: #fff;
       z-index: -5;
-      transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+      transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
     }
 
     .star-6 {
@@ -1251,7 +1334,7 @@ export default {
       filter: drop-shadow(0 0 0 #fffdef);
       fill: #fff;
       z-index: -5;
-      transition: all .8s ease;
+      transition: all 0.8s ease;
     }
 
     .btnCon {
@@ -1285,11 +1368,11 @@ export default {
       right: 0;
       top: 0;
       z-index: 3;
-      transition: .3s;
-      -webkit-transition: .3s;
-      -moz-transition: .3s;
-      -ms-transition: .3s;
-      -o-transition: .3s;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
       border-radius: 17px;
     }
 
@@ -1304,12 +1387,12 @@ export default {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 22px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     margin-top: 20px;
 
     span {
-      color: #F5B800;
+      color: #f5b800;
     }
   }
 
@@ -1317,21 +1400,17 @@ export default {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     line-height: 21px;
     text-align: center;
     margin: 20px auto 0 auto;
   }
-
 }
 
 .Features {
   margin-top: 147px;
-  ;
-
   .itemList {
     margin-top: 83px;
-
 
     display: flex;
     flex-direction: row;
@@ -1344,7 +1423,8 @@ export default {
       border-radius: 20px;
 
       &:hover {
-        background: url("~@/assets/imgs/img_key_eth@2x.png") no-repeat left center;
+        background: url("~@/assets/imgs/img_key_eth@2x.png") no-repeat left
+          center;
         background-size: 100%;
         animation: backgroundSize 0.8s;
       }
@@ -1354,23 +1434,21 @@ export default {
       font-family: Montserrat;
       font-weight: bold;
       font-size: 22px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 22px;
-      background: linear-gradient(0deg, #FFE381 0.4150390625%, #FA7D32 100%);
+      background: linear-gradient(0deg, #ffe381 0.4150390625%, #fa7d32 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin: 40px 0 0 46px;
-      ;
       padding-bottom: 28px;
       border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-
     }
 
     .content {
       font-family: Montserrat;
       font-weight: 400;
       font-size: 14px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 21px;
       margin: 0 46px;
       margin-top: 27px;
@@ -1402,21 +1480,19 @@ export default {
       font-family: Montserrat;
       font-weight: bold;
       font-size: 22px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 22px;
       height: 45px;
       margin: 32px 0 0 46px;
-      ;
       padding-bottom: 28px;
       border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-
     }
 
     .content {
       font-family: Montserrat;
       font-weight: 400;
       font-size: 14px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 21px;
       margin: 0 46px;
       margin-top: 27px;
@@ -1425,12 +1501,11 @@ export default {
 
   .aboutBottom {
     margin: 57px auto 0 auto;
-    ;
     text-align: center;
     font-family: Montserrat;
     font-weight: bold;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #ffffff;
     line-height: 65px;
     width: 629px;
     height: 65px;
@@ -1461,7 +1536,17 @@ export default {
         background-size: 200% auto;
         z-index: 1;
         animation: gradient 3s linear infinite;
-        background-image: linear-gradient(90deg, #214e81, #506179, #ed5409, #ffcb67, #ffcb67, #ed5409, #506179, #214e81);
+        background-image: linear-gradient(
+          90deg,
+          #214e81,
+          #506179,
+          #ed5409,
+          #ffcb67,
+          #ffcb67,
+          #ed5409,
+          #506179,
+          #214e81
+        );
       }
 
       .btnCon {
@@ -1479,7 +1564,7 @@ export default {
         font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
-        color: #FFB95B;
+        color: #ffb95b;
         line-height: 24px;
         overflow: hidden;
 
@@ -1602,7 +1687,7 @@ export default {
         filter: drop-shadow(0 0 0 #fffdef);
         fill: #fff;
         z-index: -5;
-        transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+        transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
       }
 
       .star-5 {
@@ -1614,7 +1699,7 @@ export default {
         filter: drop-shadow(0 0 0 #fffdef);
         fill: #fff;
         z-index: -5;
-        transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+        transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
       }
 
       .star-6 {
@@ -1626,7 +1711,7 @@ export default {
         filter: drop-shadow(0 0 0 #fffdef);
         fill: #fff;
         z-index: -5;
-        transition: all .8s ease;
+        transition: all 0.8s ease;
       }
 
       // .btnCon:hover::after {
@@ -1650,18 +1735,14 @@ export default {
       //     }
     }
   }
-
-
 }
 
 .Tools {
   margin-top: 180px;
 
   .title {
-    text-align: left
+    text-align: left;
   }
-
-  ;
 
   .itemList {
     margin-top: 40px;
@@ -1685,14 +1766,13 @@ export default {
       .img {
         width: 222px;
         margin-left: 22px;
-
       }
 
       .name {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 26px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 26px;
         margin-left: 86px;
       }
@@ -1715,7 +1795,7 @@ export default {
           font-family: Montserrat;
           font-weight: 400;
           font-size: 14px;
-          color: #FFFFFF;
+          color: #ffffff;
           line-height: 21px;
           width: 371px;
         }
@@ -1733,7 +1813,7 @@ export default {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     line-height: 21px;
     text-align: center;
   }
@@ -1770,25 +1850,23 @@ export default {
       .avtar {
         width: 200px;
         position: relative;
-
       }
 
       .name {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 22px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 34px;
         margin-top: 25px;
         position: relative;
-
       }
 
       .content {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 18px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 23px;
       }
     }
@@ -1804,11 +1882,11 @@ export default {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     line-height: 21px;
 
     span {
-      color: #F5B800;
+      color: #f5b800;
     }
   }
 
@@ -1881,7 +1959,7 @@ export default {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 22px;
       }
 
@@ -1889,7 +1967,7 @@ export default {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 22px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 22px;
         margin-top: 18px;
       }
@@ -1898,7 +1976,7 @@ export default {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 21px;
       }
     }
@@ -1921,7 +1999,8 @@ export default {
       border-radius: 20px;
 
       &:hover {
-        background: url("~@/assets/imgs/img_news_fg@2x.png") no-repeat left center;
+        background: url("~@/assets/imgs/img_news_fg@2x.png") no-repeat left
+          center;
         background-size: 100%;
         animation: backgroundSize 0.8s;
       }
@@ -1931,20 +2010,18 @@ export default {
       font-family: Montserrat;
       font-weight: bold;
       font-size: 22px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 22px;
       margin: 30px 0 0 32px;
-      ;
       padding-bottom: 28px;
       border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-
     }
 
     .content {
       font-family: Montserrat;
       font-weight: 400;
       font-size: 14px;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 21px;
       margin: 0 50px;
       margin-top: 27px;
@@ -1968,7 +2045,7 @@ export default {
         font-family: Montserrat;
         font-weight: bold;
         font-size: 22px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 22px;
       }
 
@@ -1984,9 +2061,8 @@ export default {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 21px;
-        ;
       }
     }
   }
@@ -2000,8 +2076,6 @@ export default {
     flex-direction: row;
     border-top: solid 1px rgba(255, 255, 255, 0.2);
     padding-top: 48px;
-    ;
-
     .left {
       margin-right: 134px;
 
@@ -2022,7 +2096,7 @@ export default {
         font-family: Montserrat;
         font-weight: 500;
         font-size: 18px;
-        color: #FFFFFF;
+        color: #ffffff;
         width: 120px;
         line-height: 45px;
 
@@ -2041,7 +2115,7 @@ export default {
   font-family: Source Han Sans CN;
   font-weight: 400;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 68px;
   text-align: center;
 }
