@@ -10,7 +10,7 @@ export default {
         /(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i
       )
     ) {
-      this.$router.push({ path: "/mobile" });
+      this.$router.push({ path: "/page" });
     } else {
       this.$router.push({ path: "/page" });
     }
