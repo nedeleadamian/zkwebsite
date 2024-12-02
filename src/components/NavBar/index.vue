@@ -12,7 +12,7 @@
           class="item"
           @click="handleRoute(index, item.path)"
         >
-          <a :href="item.path">
+          <a :href="item.path" target="_blank">
             {{ item.en }}
           </a>
         </div>
@@ -34,39 +34,24 @@ export default {
     return {
       bars: [
         {
-          path: "#Home",
-          cn: "Home",
-          en: "Home",
+          path: "https://openzkbeta.click/aboutus",
+          cn: "About Us",
+          en: "About Us",
         },
         {
-          path: "#About",
-          cn: "About",
-          en: "About",
+          path: "https://openzkbeta.click/airdrop",
+          cn: "Airdrop",
+          en: "Airdrop",
         },
         {
-          path: "#Features",
-          cn: "Features",
-          en: "Features",
+          path: "https://openzkbeta.click/bridge",
+          cn: "Bridge",
+          en: "Bridge",
         },
         {
-          path: "#Tools",
-          cn: "Tools",
-          en: "Tools",
-        },
-        {
-          path: "#Team",
-          cn: "Team",
-          en: "Team",
-        },
-        {
-          path: "#FAQ",
-          cn: "FAQ",
-          en: "FAQ",
-        },
-        {
-          path: "#Roadmap",
-          cn: "Roadmap",
-          en: "Roadmap",
+          path: "https://www.testnet.openzkbeta.click/",
+          cn: "Explorer",
+          en: "Explorer",
         },
       ],
       list: [
@@ -111,7 +96,7 @@ export default {
     handleRoute(index, path) {
       console.info(path, "00000000000000");
       this.barsIndex = index;
-      this.$router.push({ path: path });
+      // this.$router.push({ path: path });
     },
   },
 };
