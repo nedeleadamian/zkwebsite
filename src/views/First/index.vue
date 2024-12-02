@@ -7,7 +7,7 @@ export default {
   mounted() {
     if (
       navigator.userAgent.match(
-        /(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i
+        /(iPhone|iPod|Android|ios|iOS|iPad|Backberry|WebOS|Symbian|Windows Phone|Phone)/i
       )
     ) {
       this.$router.push({ path: "/page" });

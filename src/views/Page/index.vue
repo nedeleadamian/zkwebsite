@@ -23,9 +23,7 @@
             Leading Layer 2 Solution
           </div>
           <div class="four">
-            OpenZK is the first Layer 2 solution on ZK rollup technology to unite native ETH staking,liquid restaking,
-            and stablecoin staking in one seamless platform. Built for superiorper formance in DeFi, Real-Word Assets,
-            and trading applications.
+            OpenZK is the first Layer 2 solution on ZK rollup technology to unite native ETH staking,liquid restaking, and stablecoin staking in one seamless platform. Built for superior performance in DeFi, Real-Word Assets, and trading applications.
           </div>
         </div>
         <div class="right wow fadeIn" data-wow-delay="600ms" data-wow-duration="3000ms">
