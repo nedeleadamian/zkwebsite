@@ -45,7 +45,7 @@
               </div>
             </div>
             <div v-if="currentIntro === 1" class="intro introOne">
-              5.9% ETH earn via mainnet staking and liquid restaking plus <span>Airdrop Points</span>
+              4.2% ETH earn via mainnet staking and liquid restaking plus <span>Airdrop Points</span>
             </div>
             <div v-else class="intro introTne">
               8.5% Stablecoin earn via Defi and RWA protocols plus <span>Airdrop Points</span>

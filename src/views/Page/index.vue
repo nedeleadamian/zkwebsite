@@ -33,7 +33,7 @@
             <div class="btn">
               <div class="btnBg" />
               <div class="btnCon">
-                <a href="https://openzkbeta.click/" target=_blank rel="noopener noreferrer">
+                <a href="https://openzkbeta.click/bridge" target=_blank rel="noopener noreferrer">
                   <img class="arrow" src="@/assets/imgs/bg.png" alt="">
                 </a>
               </div>
@@ -45,14 +45,14 @@
           <div class="two">
             <div class="btnGroup">
               <div class="btn" @mouseover="currentIntro = 1">
-                <img class="icon" src="@/assets/imgs/icon_eth@2x.png" alt=""> ETH <span>5.9</span>%
+                <img class="icon" src="@/assets/imgs/icon_eth@2x.png" alt=""> ETH <span>4.2</span>%
               </div>
               <div class="btn" @mouseover="currentIntro = 2">
                 <img class="icon" src="@/assets/imgs/icon_btc@2x.png" alt=""> Stablecoins <span>8.5</span>%
               </div>
             </div>
             <div v-if="currentIntro === 1" class="intro introOne">
-              5.9% ETH earn via mainnet staking and liquid restaking plus </br><span>Airdrop Points</span>
+              4.2% ETH earn via mainnet staking and liquid restaking plus </br><span>Airdrop Points</span>
             </div>
             <div v-else class="intro introTne">
               8.5% Stablecoin earn via Defi and RWA protocols plus <span>Airdrop Points</span>
@@ -82,7 +82,7 @@
             </div>
           </div>
         </div>
-        <a href="https://openzkbeta.click/" target=_blank rel="noopener noreferrer">
+        <a href="https://openzkbeta.click/bridge" target=_blank rel="noopener noreferrer">
           <div class="btn  wow zoomInUp" data-wow-delay="200ms" data-wow-duration="3000ms">
             <div class="btnBg" />
             <div class="btnCon">
