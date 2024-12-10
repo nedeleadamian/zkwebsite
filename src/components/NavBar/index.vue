@@ -1,8 +1,10 @@
 <template>
   <nav id="page-left" :class="{ en: type === 'en' }">
     <div :class="{ con: true, sub: origin !== 'page' }">
-      <div class="logo">
-        <img src="@/assets/imgs/logo@2x.png" alt="" />
+      <div class="logo" @click>
+        <a href="https://portal.openzk.net">
+          <img src="@/assets/imgs/logo@2x.png" alt="" />
+        </a>
       </div>
       <div class="list">
         <div
