@@ -31,7 +31,7 @@
             <div class="btn">
               <div class="btnBg" />
               <div class="btnCon">
-                <a href="https://openzkbeta.click/bridge" target=_blank rel="noopener noreferrer">
+                <a href="https://portal.openzk.net/bridge" rel="noopener noreferrer">
                   <img class="arrow" src="@/assets/imgs/bg.png" alt="">
                 </a>
               </div>
@@ -80,7 +80,7 @@
             </div>
           </div>
         </div>
-        <a href="https://openzkbeta.click/bridge" target=_blank rel="noopener noreferrer">
+        <a href="https://portal.openzk.net/bridge" rel="noopener noreferrer">
           <div class="btn  wow zoomInUp" data-wow-delay="200ms" data-wow-duration="3000ms">
             <div class="btnBg" />
             <div class="btnCon">

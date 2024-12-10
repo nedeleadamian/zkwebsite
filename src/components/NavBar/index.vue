@@ -12,7 +12,7 @@
           class="item"
           @click="handleRoute(index, item.path)"
         >
-          <a :href="item.path" target="_blank">
+          <a :href="item.path">
             {{ item.en }}
           </a>
         </div>
@@ -34,17 +34,17 @@ export default {
     return {
       bars: [
         {
-          path: "https://openzkbeta.click/aboutus",
+          path: "https://portal.openzk.net/aboutus",
           cn: "About Us",
           en: "About Us",
         },
         {
-          path: "https://openzkbeta.click/airdrop",
+          path: "https://portal.openzk.net/airdrop",
           cn: "Airdrop",
           en: "Airdrop",
         },
         {
-          path: "https://openzkbeta.click/bridge",
+          path: "https://portal.openzk.net/bridge",
           cn: "Bridge",
           en: "Bridge",
         },
