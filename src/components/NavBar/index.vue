@@ -1,7 +1,7 @@
 <template>
   <nav id="page-left" :class="{ en: type === 'en' }">
     <div :class="{ con: true, sub: origin !== 'page' }">
-      <div class="logo" @click>
+      <div class="logo">
         <a href="https://portal.openzk.net">
           <img src="@/assets/imgs/logo@2x.png" alt="" />
         </a>
